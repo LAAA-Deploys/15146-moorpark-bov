@@ -325,12 +325,39 @@
       "rendered_width": 500,
       "rendered_height": 281,
       "exception_id": null
+    },
+    {
+      "id": "moorpark-13",
+      "filename": "moorpark-13-parcel-map.jpg",
+      "sha256": "e35336de093faaf1610e2c72356029dbfd7a904671208835ec7ebe4e9e6f17bd",
+      "phash": "fa1c91c26e259d1b",
+      "source": "web_other",
+      "source_url": null,
+      "access_date": "2026-09-17",
+      "category": "parcel_map",
+      "width": 3424,
+      "height": 2336,
+      "stock_or_illustrative": false,
+      "stock_basis": null,
+      "property_match": "confirmed_human",
+      "match_basis": "LA County Assessor plat map, book 2264 page 7, supplied by the listing agent in the deal folder Photos set. Lot 2 of Tract 13087 is shaded, which is the subject parcel: APN 2264-007-002, the same tract and lot ZIMAS returns for 15146 Moorpark St. Rotated clockwise so the sheet reads upright. Confirmed by Morgan Wetmore.",
+      "reviewed_by": "Morgan Wetmore",
+      "reviewed_at": "2026-09-17T03:40:00Z",
+      "rights_holder": "Los Angeles County Assessor plat map, public record",
+      "publication_basis": "glen_standing_rule",
+      "usage_scope": "Seller-facing broker opinion of value delivered to the property owner.",
+      "required_credit": null,
+      "status": "published",
+      "rejected_reason": null,
+      "rendered_width": 3424,
+      "rendered_height": 2336,
+      "exception_id": null
     }
   ],
   "published": {
     "order": [
-      "moorpark-01",
       "moorpark-02",
+      "moorpark-01",
       "moorpark-03",
       "moorpark-04",
       "moorpark-05",
@@ -340,9 +367,10 @@
       "moorpark-09",
       "moorpark-10",
       "moorpark-11",
-      "moorpark-12"
+      "moorpark-12",
+      "moorpark-13"
     ],
-    "hero": "moorpark-01",
-    "contact_sheet_sha256": "feab432e88186208f0fba4a127b0fe36c52af8412c555369bf71150d86b70885"
+    "hero": "moorpark-02",
+    "contact_sheet_sha256": "8b19d3044c2b76b01b0d75216ee122882ae4a93fa62c2338bb1fb4ab8474055e"
   }
 }

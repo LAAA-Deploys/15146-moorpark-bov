@@ -11,7 +11,7 @@
     "month_year": "September 2026",
     "cover_label": "Confidential Broker Opinion of Value  |  Marcus & Millichap, #1 in U.S. Multifamily Sales",
     "noindex": true,
-    "hero": "images/moorpark-01-living-room-patio.jpg",
+    "hero": "images/moorpark-02-street-elevation.jpg",
     "hero_tall": null
   },
   "team": {
@@ -168,7 +168,7 @@
       "year_built": 2005,
       "renovated_year": null,
       "parking": "Gated subterranean garage beneath the building; space count pending confirmation with ownership",
-      "hero": "images/moorpark-01-living-room-patio.jpg",
+      "hero": "images/moorpark-02-street-elevation.jpg",
       "price": 3125000.0,
       "price_per_unit": 446428.57,
       "price_per_sf": 289.89,
@@ -472,8 +472,8 @@
       ],
       "market_narrative": [
         "The buyer for this building is not buying a repositioning. Rents are already at or near the top of the Sherman Oaks range for this unit type, the interiors are done, and the capital items a buyer normally holds money back for are behind it. What they are buying is a rule set: a Los Angeles apartment building where the annual increase is a published formula, turnover resets to market, and the operating statement has five lines on it.",
-        "That pool is smaller than the pool for a twenty unit RSO building and it moves faster. The competing Sherman Oaks listing, five townhomes on Stern Avenue, is asking $639,000 a unit and has been out 41 days, which tells us where the ceiling is and roughly how long it takes to find out.",
-        "Days on market across the three closed sales: 17 days on 13430 Victory Blvd, which closed 1.7% above its ask; 13 days on 10833-10835 Camarillo St, which closed 9.2% below its ask; and zero on 4609 Kester Ave, which never reached the MLS as a listing and traded off market. The four active listings carried here have been out 41, 72, 147 and 248 days, and the two that have sat longest are the two asking the most per unit."
+        "That pool is smaller than the pool for a twenty unit RSO building and it moves faster. The competing Sherman Oaks listing, five townhomes on Stern Avenue, is asking $639,000 a unit and has been exposed for 163 days through multiple price reductions without trading, which tells us where the ceiling is and what happens above it.",
+        "Days on market across the three closed sales: 17 days on 13430 Victory Blvd, which closed 1.7% above its ask; 13 days on 10833-10835 Camarillo St, which closed 9.2% below its ask; and zero on 4609 Kester Ave, which never reached the MLS as a listing and traded off market. The four active listings carried here have been out 163, 72, 147 and 248 days, and the two asking the most per unit are still unsold."
       ],
       "positioning_narrative": [
         "We position the building on what a buyer owns on day one rather than on what they could do to it. Seven large townhome units in prime Sherman Oaks, one delivered vacant, in-unit laundry and a private garage space behind a gate, no rent board, and a landlord expense load limited to water, power in the common areas and refuse. The rent upside is real but modest, and we would rather be believed on a 5% number than doubted on a 20% one."
@@ -488,7 +488,7 @@
         "The suggested list price of $3,125,000 is $446,429 a unit and $289.89 per square foot. Against the three closed sales it sits just under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 29% under the $408.67 per square foot median of the set. Those two readings come from the same fact: at 1,540 gross square feet a unit the subject carries 40% more space per unit than Kester and nearly twice Camarillo St, so it earns the unit price and gives back the foot price.",
         "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85.",
         "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 37.7% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff.",
-        "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
+        "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has taken 163 days and multiple price reductions without trading."
       ],
       "strategy": [
         {
@@ -523,8 +523,8 @@
       ],
       "gallery": [
         {
-          "src": "images/moorpark-02-street-elevation.jpg",
-          "alt": "Street Elevation"
+          "src": "images/moorpark-01-living-room-patio.jpg",
+          "alt": "Living Room And Patio"
         },
         {
           "src": "images/moorpark-03-kitchen.jpg",
@@ -565,6 +565,10 @@
         {
           "src": "images/moorpark-12-roof-deck.jpg",
           "alt": "Shared Roof Deck"
+        },
+        {
+          "src": "images/moorpark-13-parcel-map.jpg",
+          "alt": "Parcel Map"
         }
       ],
       "model_pages": [],
@@ -737,7 +741,7 @@
           "building_sf": 6270,
           "lot_sf": 6626,
           "date": "2026-09-16",
-          "days_on_market": 41,
+          "days_on_market": 163,
           "price_per_unit": 639000.0,
           "price_per_sf": 509.57,
           "price_per_land_sf": 482.19136734077875,
@@ -746,9 +750,9 @@
           "image": null,
           "restatement": null,
           "document": null,
-          "summary": "41 days on market and unsold. The competing Sherman Oaks listing, priced at $639,000 a unit. Separate APNs give it a condominium conversion path the subject does not have, which is part of why it asks what it asks.",
+          "summary": "163 days on market with multiple price reductions and still unsold. The competing Sherman Oaks listing, asking $639,000 a unit. Separate APNs give it a condominium conversion path the subject does not have, which is part of why it asks what it asks and part of why it has not cleared.",
           "relevance": "Five three-bedroom townhomes built in 2008, each on its own APN, with private garages, rooftop decks and in-unit laundry.; 1,254 square feet per unit against the subject's 1,540, and five units against seven.",
-          "considerations": "Listed 5 August 2026 at $3,195,000 and unsold at 41 days on market.; In-place rents of $3,300 to $3,750 with projected rents of $3,750 to $4,000, which is the direct market test of the subject's three-bedroom pro forma rent.; LAAA sold this property in 2014 for $2,750,000.",
+          "considerations": "163 cumulative days on market with multiple price reductions and no trade. The MLS record shows a shorter figure because days on market reset when the listing was re-entered; 163 is the marketing period the property has actually been exposed for.; In-place rents of $3,300 to $3,750 with projected rents of $3,750 to $4,000, which is the direct market test of the subject's three-bedroom rent.; LAAA sold this property in 2014 for $2,750,000.",
           "map_ref": 1,
           "map_url": "https://www.google.com/maps/search/?api=1&query=34.149587,-118.4358196&query_place_id=ChIJLeioRSyWwoARjW7LTORpYsM"
         },
@@ -1221,8 +1225,8 @@
         "buyer_profile": {
           "market_narrative": [
             "The buyer for this building is not buying a repositioning. Rents are already at or near the top of the Sherman Oaks range for this unit type, the interiors are done, and the capital items a buyer normally holds money back for are behind it. What they are buying is a rule set: a Los Angeles apartment building where the annual increase is a published formula, turnover resets to market, and the operating statement has five lines on it.",
-            "That pool is smaller than the pool for a twenty unit RSO building and it moves faster. The competing Sherman Oaks listing, five townhomes on Stern Avenue, is asking $639,000 a unit and has been out 41 days, which tells us where the ceiling is and roughly how long it takes to find out.",
-            "Days on market across the three closed sales: 17 days on 13430 Victory Blvd, which closed 1.7% above its ask; 13 days on 10833-10835 Camarillo St, which closed 9.2% below its ask; and zero on 4609 Kester Ave, which never reached the MLS as a listing and traded off market. The four active listings carried here have been out 41, 72, 147 and 248 days, and the two that have sat longest are the two asking the most per unit."
+            "That pool is smaller than the pool for a twenty unit RSO building and it moves faster. The competing Sherman Oaks listing, five townhomes on Stern Avenue, is asking $639,000 a unit and has been exposed for 163 days through multiple price reductions without trading, which tells us where the ceiling is and what happens above it.",
+            "Days on market across the three closed sales: 17 days on 13430 Victory Blvd, which closed 1.7% above its ask; 13 days on 10833-10835 Camarillo St, which closed 9.2% below its ask; and zero on 4609 Kester Ave, which never reached the MLS as a listing and traded off market. The four active listings carried here have been out 163, 72, 147 and 248 days, and the two asking the most per unit are still unsold."
           ],
           "positioning_narrative": [
             "We position the building on what a buyer owns on day one rather than on what they could do to it. Seven large townhome units in prime Sherman Oaks, one delivered vacant, in-unit laundry and a private garage space behind a gate, no rent board, and a landlord expense load limited to water, power in the common areas and refuse. The rent upside is real but modest, and we would rather be believed on a 5% number than doubted on a 20% one."
@@ -1251,7 +1255,7 @@
             "The suggested list price of $3,125,000 is $446,429 a unit and $289.89 per square foot. Against the three closed sales it sits just under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 29% under the $408.67 per square foot median of the set. Those two readings come from the same fact: at 1,540 gross square feet a unit the subject carries 40% more space per unit than Kester and nearly twice Camarillo St, so it earns the unit price and gives back the foot price.",
             "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85.",
             "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 37.7% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff.",
-            "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
+            "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has taken 163 days and multiple price reductions without trading."
           ],
           "disclosures": [
             "Income is taken from ownership's rent roll paid through 30 September 2026 and from ownership's profit and loss statement for January through August 2026. Operating expenses are the lines carried in the M&M Multifamily Model as keyed for this property. Property taxes are reassessed to the suggested list price at 1.20%, which is $37,500, and a buyer's actual bill will differ from the current owner's.",
@@ -1721,7 +1725,7 @@
             "comps-sale:active-stern"
           ],
           "framed_as": "how we read the buyer pool",
-          "text": "That pool is smaller than the pool for a twenty unit RSO building and it moves faster. The competing Sherman Oaks listing, five townhomes on Stern Avenue, is asking $639,000 a unit and has been out 41 days, which tells us where the ceiling is and roughly how long it takes to find out."
+          "text": "That pool is smaller than the pool for a twenty unit RSO building and it moves faster. The competing Sherman Oaks listing, five townhomes on Stern Avenue, is asking $639,000 a unit and has been exposed for 163 days through multiple price reductions without trading, which tells us where the ceiling is and what happens above it."
         },
         {
           "id": "buyer-market-3",
@@ -1732,7 +1736,7 @@
             "comps-sale:sale-kester"
           ],
           "framed_as": null,
-          "text": "Days on market across the three closed sales: 17 days on 13430 Victory Blvd, which closed 1.7% above its ask; 13 days on 10833-10835 Camarillo St, which closed 9.2% below its ask; and zero on 4609 Kester Ave, which never reached the MLS as a listing and traded off market. The four active listings carried here have been out 41, 72, 147 and 248 days, and the two that have sat longest are the two asking the most per unit."
+          "text": "Days on market across the three closed sales: 17 days on 13430 Victory Blvd, which closed 1.7% above its ask; 13 days on 10833-10835 Camarillo St, which closed 9.2% below its ask; and zero on 4609 Kester Ave, which never reached the MLS as a listing and traded off market. The four active listings carried here have been out 163, 72, 147 and 248 days, and the two asking the most per unit are still unsold."
         },
         {
           "id": "buyer-pos-1",
@@ -1876,7 +1880,7 @@
             "comps-sale:sale-kester"
           ],
           "framed_as": "the recommendation",
-          "text": "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
+          "text": "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has taken 163 days and multiple price reductions without trading."
         },
         {
           "id": "disc-1",
@@ -2025,8 +2029,8 @@
         "buyer_profile": {
           "market_narrative": [
             "The buyer for this building is not buying a repositioning. Rents are already at or near the top of the Sherman Oaks range for this unit type, the interiors are done, and the capital items a buyer normally holds money back for are behind it. What they are buying is a rule set: a Los Angeles apartment building where the annual increase is a published formula, turnover resets to market, and the operating statement has five lines on it.",
-            "That pool is smaller than the pool for a twenty unit RSO building and it moves faster. The competing Sherman Oaks listing, five townhomes on Stern Avenue, is asking $639,000 a unit and has been out 41 days, which tells us where the ceiling is and roughly how long it takes to find out.",
-            "Days on market across the three closed sales: 17 days on 13430 Victory Blvd, which closed 1.7% above its ask; 13 days on 10833-10835 Camarillo St, which closed 9.2% below its ask; and zero on 4609 Kester Ave, which never reached the MLS as a listing and traded off market. The four active listings carried here have been out 41, 72, 147 and 248 days, and the two that have sat longest are the two asking the most per unit."
+            "That pool is smaller than the pool for a twenty unit RSO building and it moves faster. The competing Sherman Oaks listing, five townhomes on Stern Avenue, is asking $639,000 a unit and has been exposed for 163 days through multiple price reductions without trading, which tells us where the ceiling is and what happens above it.",
+            "Days on market across the three closed sales: 17 days on 13430 Victory Blvd, which closed 1.7% above its ask; 13 days on 10833-10835 Camarillo St, which closed 9.2% below its ask; and zero on 4609 Kester Ave, which never reached the MLS as a listing and traded off market. The four active listings carried here have been out 163, 72, 147 and 248 days, and the two asking the most per unit are still unsold."
           ],
           "positioning_narrative": [
             "We position the building on what a buyer owns on day one rather than on what they could do to it. Seven large townhome units in prime Sherman Oaks, one delivered vacant, in-unit laundry and a private garage space behind a gate, no rent board, and a landlord expense load limited to water, power in the common areas and refuse. The rent upside is real but modest, and we would rather be believed on a 5% number than doubted on a 20% one."
@@ -2055,7 +2059,7 @@
             "The suggested list price of $3,125,000 is $446,429 a unit and $289.89 per square foot. Against the three closed sales it sits just under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 29% under the $408.67 per square foot median of the set. Those two readings come from the same fact: at 1,540 gross square feet a unit the subject carries 40% more space per unit than Kester and nearly twice Camarillo St, so it earns the unit price and gives back the foot price.",
             "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85.",
             "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 37.7% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff.",
-            "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
+            "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has taken 163 days and multiple price reductions without trading."
           ],
           "disclosures": [
             "Income is taken from ownership's rent roll paid through 30 September 2026 and from ownership's profit and loss statement for January through August 2026. Operating expenses are the lines carried in the M&M Multifamily Model as keyed for this property. Property taxes are reassessed to the suggested list price at 1.20%, which is $37,500, and a buyer's actual bill will differ from the current owner's.",
@@ -2525,7 +2529,7 @@
             "comps-sale:active-stern"
           ],
           "framed_as": "how we read the buyer pool",
-          "text": "That pool is smaller than the pool for a twenty unit RSO building and it moves faster. The competing Sherman Oaks listing, five townhomes on Stern Avenue, is asking $639,000 a unit and has been out 41 days, which tells us where the ceiling is and roughly how long it takes to find out."
+          "text": "That pool is smaller than the pool for a twenty unit RSO building and it moves faster. The competing Sherman Oaks listing, five townhomes on Stern Avenue, is asking $639,000 a unit and has been exposed for 163 days through multiple price reductions without trading, which tells us where the ceiling is and what happens above it."
         },
         {
           "id": "buyer-market-3",
@@ -2536,7 +2540,7 @@
             "comps-sale:sale-kester"
           ],
           "framed_as": null,
-          "text": "Days on market across the three closed sales: 17 days on 13430 Victory Blvd, which closed 1.7% above its ask; 13 days on 10833-10835 Camarillo St, which closed 9.2% below its ask; and zero on 4609 Kester Ave, which never reached the MLS as a listing and traded off market. The four active listings carried here have been out 41, 72, 147 and 248 days, and the two that have sat longest are the two asking the most per unit."
+          "text": "Days on market across the three closed sales: 17 days on 13430 Victory Blvd, which closed 1.7% above its ask; 13 days on 10833-10835 Camarillo St, which closed 9.2% below its ask; and zero on 4609 Kester Ave, which never reached the MLS as a listing and traded off market. The four active listings carried here have been out 163, 72, 147 and 248 days, and the two asking the most per unit are still unsold."
         },
         {
           "id": "buyer-pos-1",
@@ -2680,7 +2684,7 @@
             "comps-sale:sale-kester"
           ],
           "framed_as": "the recommendation",
-          "text": "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
+          "text": "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has taken 163 days and multiple price reductions without trading."
         },
         {
           "id": "disc-1",
@@ -2735,8 +2739,8 @@
     "media_selection": {
       "deal_id": "moorpark-15146",
       "order": [
-        "moorpark-01",
         "moorpark-02",
+        "moorpark-01",
         "moorpark-03",
         "moorpark-04",
         "moorpark-05",
@@ -2746,15 +2750,16 @@
         "moorpark-09",
         "moorpark-10",
         "moorpark-11",
-        "moorpark-12"
+        "moorpark-12",
+        "moorpark-13"
       ],
-      "hero": "moorpark-01",
+      "hero": "moorpark-02",
       "items": [
         {
-          "id": "moorpark-01",
-          "sha256": "cc3e36b918d734162d15cd1c6d2fb6bdfd51996eaa05af059d0e3b11a8969a59",
-          "phash": "c0ac695f5e869173",
-          "category": "living_room_and_patio",
+          "id": "moorpark-02",
+          "sha256": "ec8da1ecca2dfb1f902df14fc12b40bde21ddaeb8cfcf23fc6f35e4462d62056",
+          "phash": "a7b963d47a45886c",
+          "category": "street_elevation",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
           "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
@@ -2764,10 +2769,10 @@
           "exception_id": null
         },
         {
-          "id": "moorpark-02",
-          "sha256": "ec8da1ecca2dfb1f902df14fc12b40bde21ddaeb8cfcf23fc6f35e4462d62056",
-          "phash": "a7b963d47a45886c",
-          "category": "street_elevation",
+          "id": "moorpark-01",
+          "sha256": "cc3e36b918d734162d15cd1c6d2fb6bdfd51996eaa05af059d0e3b11a8969a59",
+          "phash": "c0ac695f5e869173",
+          "category": "living_room_and_patio",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
           "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
@@ -2905,6 +2910,19 @@
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
           "exception_id": null
+        },
+        {
+          "id": "moorpark-13",
+          "sha256": "e35336de093faaf1610e2c72356029dbfd7a904671208835ec7ebe4e9e6f17bd",
+          "phash": "fa1c91c26e259d1b",
+          "category": "parcel_map",
+          "stock_or_illustrative": false,
+          "property_match": "confirmed_human",
+          "match_basis": "LA County Assessor plat map, book 2264 page 7, supplied by the listing agent in the deal folder Photos set. Lot 2 of Tract 13087 is shaded, which is the subject parcel: APN 2264-007-002, the same tract and lot ZIMAS returns for 15146 Moorpark St. Rotated clockwise so the sheet reads upright. Confirmed by Morgan Wetmore.",
+          "publication_basis": "glen_standing_rule",
+          "usage_scope": "Seller-facing broker opinion of value delivered to the property owner.",
+          "required_credit": null,
+          "exception_id": null
         }
       ],
       "presentation": {
@@ -2952,26 +2970,26 @@
       "identity": "b7dc5285b9ef8c4f677049939cb945fe2938ebad90f6dabbcc4c5fda83ac0cc1",
       "financial_inputs": "76e3e653f87789de2116bd83217bfe96b25c198615822f84f14229fefbd9e741",
       "pricing_decision": "d6c6063c1b4e0d24f68c5b02c72d56e3e65775b2193d72d9191492eced3b00b5",
-      "sale_comps": "30f2f3938a0feecbf1525682b6f6a83158aacca9aa1c9c5af4cfa9af3c94294f",
+      "sale_comps": "16919ec5fc973b158d6b1c4d41d05c1a8e5a376b1f3c66ee4d539d8532fcb303",
       "rent_comps": "956c6bcecbfeb0f8f1ed94f38446b21b2f19703a1766d41e60de90f8f884fc89",
-      "copy": "c4254251dcd2814dfd79539ea67c6660b9a68a80160b1465e55972e149ad2ac2",
-      "media_selection": "8614c2d870221cf04fa39188b0d9b515e52915f500ac85319e2f6ea28ad18562",
+      "copy": "6fd11373ef849e30f24c5991c39913179c60ac1eb92d35c05edd7bf49445c7e0",
+      "media_selection": "14c4d616267d537fadb3f75790e6779fc05039bef5c534018f458ed00f51d386",
       "regulatory_conclusions": "23db1d1dce66b0e1fa61543bdc5fe438be5bd6e7ed00c37a451f6a3787f14702"
     },
     "presentation_hashes": {
-      "identity": "4da2c349c2c3a41067a0712cad298f3a90d18900b3520d1a287bbf1e67bc0d13",
+      "identity": "8cfb65bf36dda8dab5d3893e5f86a58c219ed652e80f285559c4421bcab0bc72",
       "financial_inputs": "e4b3d6231f3c1ec0c0b3c3cdd10456c28fcf8dff3ff64a0b78df84ab2081eecb",
       "pricing_decision": "7af12ce0ea806762daadb4591c9a3a9863b9e4acdf2e75d3cda86b8ecffa4350",
-      "sale_comps": "378e2c19e8f2bc148e4caffc39674756a94ec88346ae3e756b5b1ecada166a95",
+      "sale_comps": "2285bea93605ecbd3259d70563539f2ad5aa87cfa5b990c1897af3a5ddc1fc39",
       "rent_comps": "f21f67169042c89cd9b49f16f8ba68b5673bcb4d68d58e646e0b4e872ff73bc9",
-      "copy": "dad1127b940cd7f90def34fe04afbe8fa2410761ac6d94bfd56b064d1bf34c2a",
-      "media_selection": "686aad5b3539aa20c8a554bef491657b655a25a8dd9a6eecef3400d391f81b0e",
+      "copy": "bf169f168a72b3ab7f924191eac4a5d7c2c2f51027e6183718043ca66f54f82e",
+      "media_selection": "4dc90cee0a7fafc2da43aa18ed6563a310b74c963b19d4184e97f0ceb76e2ce8",
       "regulatory_conclusions": "08190f452f133c30af4537246c9c67dc864c729fe433361adca2e8282cd25f81"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-17T17:20:40+00:00",
+    "generated": "2026-09-17T17:27:12+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
