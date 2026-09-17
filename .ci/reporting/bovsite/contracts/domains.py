@@ -93,6 +93,16 @@ def _deal_presentation_projection(presentation: dict[str, Any]) -> dict[str, Any
     hide_listings = (presentation.get("local_closings") or {}).get("hide_listings")
     if hide_listings is not None:
         projection["local_closings_hide_listings"] = hide_listings
+    # Same rule for local_closings.columns (Codex P1 on #449). It decides which
+    # columns of the seller's own record render, and declaring "asset_type" also
+    # widens the population to every asset class LAAA closed in the scope, so
+    # editing it after approval changes what the client reads. The payload hashes
+    # regenerate on the next build and would have matched, letting the edit ride
+    # the old package approval. Projected only when present, so the identity hash
+    # of every already-approved deal that declares nothing here does not move.
+    columns = (presentation.get("local_closings") or {}).get("columns")
+    if columns is not None:
+        projection["local_closings_columns"] = list(columns)
     # Same rule again for Buyout Scenarios, and for its inputs. The toggle adds
     # or removes a client-facing section, and every input is a price the reader
     # sees, so moving one after approval must reopen it. presentation_projections

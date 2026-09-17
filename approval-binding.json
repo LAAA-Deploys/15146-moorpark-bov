@@ -3,8 +3,8 @@
   "scope": "deal",
   "deal_id": "moorpark-15146",
   "portfolio_id": null,
-  "package_version": "v8",
-  "approved_at": "2026-09-17T17:29:56.766170+00:00",
+  "package_version": "v9",
+  "approved_at": "2026-09-17T17:52:31.266074+00:00",
   "approver": "Morgan Wetmore",
   "price": {
     "value": 3125000.0
@@ -15,28 +15,28 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "51be296284eb0e2fa549266af9eda9b5f518de702f57f29c44441fd802157af2"
+      "content_sha256": "8004d9e82db21b673e5f625f2a2f5c15c7b025ccf81a52bead60e72d1c770ad6"
     },
     "financial_inputs": {
-      "content_sha256": "76e3e653f87789de2116bd83217bfe96b25c198615822f84f14229fefbd9e741"
+      "content_sha256": "5885d04895b4af24f54751b257798457ed30cdc2e7cca51c1c407181f0020597"
     },
     "identity": {
-      "content_sha256": "b7dc5285b9ef8c4f677049939cb945fe2938ebad90f6dabbcc4c5fda83ac0cc1"
+      "content_sha256": "96f2c00168f102d09a7d7cc51cb9982863638caea1fa501f5a1a7243d3c3dd5b"
     },
     "media_selection": {
       "content_sha256": "14c4d616267d537fadb3f75790e6779fc05039bef5c534018f458ed00f51d386"
     },
     "pricing_decision": {
-      "content_sha256": "d6c6063c1b4e0d24f68c5b02c72d56e3e65775b2193d72d9191492eced3b00b5"
+      "content_sha256": "fb50f52b080530ae366adca57ae664e9b7733e3db858c2695d14b16265ced873"
     },
     "regulatory_conclusions": {
       "content_sha256": "23db1d1dce66b0e1fa61543bdc5fe438be5bd6e7ed00c37a451f6a3787f14702"
     },
     "rent_comps": {
-      "content_sha256": "956c6bcecbfeb0f8f1ed94f38446b21b2f19703a1766d41e60de90f8f884fc89"
+      "content_sha256": "2c1665102fe6446d6778e204f33333f3017c2d0ba8f3d389e08e61792cb0d7c8"
     },
     "sale_comps": {
-      "content_sha256": "16919ec5fc973b158d6b1c4d41d05c1a8e5a376b1f3c66ee4d539d8532fcb303"
+      "content_sha256": "c22dd1a364ed46ebe717b9fb8b422849716266b1e7c0423b22f9350936cc9c28"
     }
   },
   "legacy_snapshot": false,

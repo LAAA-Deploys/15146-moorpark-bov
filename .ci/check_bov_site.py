@@ -466,6 +466,9 @@ def main(site):
     # Unit count per slug, so the mandatory-section rule can tell a land deal
     # from an apartment building that dropped a section it owed the reader.
     payload_units_by_slug: dict[str, int] = {}
+    # Whether each route publishes the M&M model print, which replaces the
+    # Opinion of Value table (Glen, 2026-09-17).
+    payload_model_print_by_slug: dict[str, bool] = {}
     if (site / "bov-site.json").exists():
         try:
             site_data = json.loads((site / "bov-site.json").read_text(encoding="utf-8"))
@@ -476,6 +479,7 @@ def main(site):
                 if p.get("slug"):
                     property_slugs.add(p["slug"])
                     payload_units_by_slug[p["slug"]] = p.get("units") or 0
+                    payload_model_print_by_slug[p["slug"]] = bool(p.get("model_pages"))
                 if p.get("price"):
                     prices_by_slug[p.get("slug", "")] = f"${p['price']:,.0f}"
             if len(site_data.get("properties") or []) == 1:
@@ -622,6 +626,16 @@ def main(site):
                     if page.parent.name in property_slugs
                     else next(iter(payload_units_by_slug.values()), None)):
                 mandatory.discard("rent-comps")
+            # A route that publishes the M&M model print carries its pricing in
+            # the print, so the Opinion of Value table is not owed and must not
+            # render beside it (Glen, 2026-09-17).
+            if (payload_model_print_by_slug.get(page.parent.name)
+                    if page.parent.name in property_slugs
+                    else next(iter(payload_model_print_by_slug.values()), False)):
+                mandatory.discard("opinion-of-value")
+                if "opinion-of-value" in found:
+                    fail(f"{rel}: the Opinion of Value table renders beside the model print, "
+                         "which already carries the pricing.")
             missing = [s for s in SECTION_ORDER if s in mandatory and s not in found]
             if missing:
                 fail(f"{rel}: missing mandatory section(s): {', '.join(missing)}")

@@ -1315,6 +1315,9 @@ def _build_payload(workspace: DealWorkspace) -> dict:
             "image": comp.get("image"),
             "restatement": comp.get("restatement"),
             "document": document,
+            # Absent means true: an active comp gets a side-by-side unless the
+            # spine says otherwise, so no existing deal changes shape.
+            "side_by_side": comp.get("side_by_side", True),
             "summary": comp["weight_reason"],
             "relevance": "; ".join(comp["physical_differences"]) or "Physical comparison recorded.",
             "considerations": "; ".join(comp["operational_differences"]) or "Operating comparison recorded.",
@@ -1402,6 +1405,9 @@ def _build_payload(workspace: DealWorkspace) -> dict:
             "square_feet_basis": comp["unit_sf_basis"],
             "distance": comp["distance_miles"],
             "image": comp.get("image"),
+            # The advertisement the asking rent was read off. Rendered as the
+            # address link so a reader can check the figure at its source.
+            "listing_url": comp.get("listing_url"),
         }
         for comp in rent["rows"]
         if comp["quality_rating"] != "exclude"

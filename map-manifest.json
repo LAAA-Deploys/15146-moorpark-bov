@@ -71,16 +71,6 @@
     },
     {
       "property": "15146-moorpark",
-      "category": "active",
-      "lat": 34.18546,
-      "lng": -118.38328,
-      "place_id": "ChIJZ81fkdqVwoARqcQJikfMSTY",
-      "precision": "ROOFTOP",
-      "needs_review": false,
-      "order": 4
-    },
-    {
-      "property": "15146-moorpark",
       "category": "rent",
       "lat": 34.1532812,
       "lng": -118.4644686,
@@ -159,14 +149,14 @@
     "images/maps-15146-moorpark-sale-comps-tall.png": "849d6907f83e9bb319e4bcf961590584fc852860304821ce8679b88bc67af873",
     "images/maps-15146-moorpark-rent-comps.png": "d52e274b09196e45ec89b54d7e361eaf33c4e7666313c9f8bc246fee840eb50a",
     "images/maps-15146-moorpark-rent-comps-tall.png": "f485817078fa76f823c29d812f5184aea50e733399af30fef43d8fa3d9ad0d59",
-    "images/maps-15146-moorpark-active-comps.png": "30d96b2f59ec43ce9bac508b694616022b50c7e255751850539347845b1f2b72",
-    "images/maps-15146-moorpark-active-comps-tall.png": "baff850c73404927cec06dabbbefb05312594a001e7807460e94fa4773ab132e",
+    "images/maps-15146-moorpark-active-comps.png": "dec48076958a44bb01dc93d8ffc79d73568636e836d9ebf51d03bdd91b77b229",
+    "images/maps-15146-moorpark-active-comps-tall.png": "0b4d974acc3f2d42eb501fb4a113b03a9787a6ac8f97a484a409e874c89f1435",
     "images/maps-15146-moorpark-closings.png": "97de855c609a4d8b5dcfd1618873bc51ef68e7c059e2dc2fe3f51c9ec7a09cc3"
   },
   "closings": {
     "15146-moorpark": {
       "source": "https://www.laaa.com/track-record",
-      "pulled": "2026-09-17T01:18:00+00:00",
+      "pulled": "2026-09-17T17:43:25+00:00",
       "basis": {
         "type": "submarket",
         "label": "Sherman Oaks"
