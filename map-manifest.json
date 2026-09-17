@@ -1,0 +1,182 @@
+{
+  "entries": [
+    {
+      "property": "15146-moorpark",
+      "category": "subject",
+      "lat": 34.1541286,
+      "lng": -118.4634478,
+      "place_id": "ChIJi9iFhOqXwoARPzFIukX_4jw",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "sold",
+      "lat": 34.1542806,
+      "lng": -118.4577952,
+      "place_id": "ChIJk7xOMMGXwoARZ5HztuCRbV0",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 1
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "sold",
+      "lat": 34.1863596,
+      "lng": -118.4253828,
+      "place_id": "ChIJQ8w11PeWwoARiEV7FAm9TZs",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 2
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "sold",
+      "lat": 34.1579572,
+      "lng": -118.3671482,
+      "place_id": "ChIJ2eiRUCC-woARh2_WSgw4HxI",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 3
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "active",
+      "lat": 34.149587,
+      "lng": -118.4358196,
+      "place_id": "ChIJLeioRSyWwoARjW7LTORpYsM",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 1
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "active",
+      "lat": 34.1859583,
+      "lng": -118.4450487,
+      "place_id": "ChIJbz08UQGXwoAR18BLu07ThCs",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 2
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "active",
+      "lat": 34.1843107,
+      "lng": -118.4552685,
+      "place_id": "ChIJq9wTzw6XwoARymSFW3BeMEA",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 3
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "active",
+      "lat": 34.18546,
+      "lng": -118.38328,
+      "place_id": "ChIJZ81fkdqVwoARqcQJikfMSTY",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 4
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "rent",
+      "lat": 34.1532812,
+      "lng": -118.4644686,
+      "place_id": "ChIJfWcIYOqXwoAR51lEZXnj4Vk",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 1
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "rent",
+      "lat": 34.1718092,
+      "lng": -118.4586999,
+      "place_id": "ChIJ5V1ywqOXwoARPuTGmxNTFbA",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 2
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "rent",
+      "lat": 34.1508728,
+      "lng": -118.4669613,
+      "place_id": "ChIJVZqNxOuXwoARvwH6C4_VQjo",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 3
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "rent",
+      "lat": 34.1517834,
+      "lng": -118.4593351,
+      "place_id": "ChIJm_fw2cOXwoARgXWFGzUvIfM",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 4
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "rent",
+      "lat": 34.1497845,
+      "lng": -118.4357616,
+      "place_id": "ChIJpdn_TiyWwoARCxNlih1MfLU",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 5
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "rent",
+      "lat": 34.1501218,
+      "lng": -118.4330849,
+      "place_id": "ChIJh_-4kC6WwoARj3je_VA_OcQ",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 6
+    },
+    {
+      "property": "15146-moorpark",
+      "category": "rent",
+      "lat": 34.1557955,
+      "lng": -118.4497129,
+      "place_id": "ChIJ42gi6siXwoARQJg_cOV7gW0",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 7
+    }
+  ],
+  "renders": {
+    "images/maps-portfolio-subjects.png": "63fa606847a8e9038520f5185f2c2bd4539a52289747b63db830d93e610a13ed",
+    "images/maps-portfolio-subjects-tall.png": "618b254c773b4a3694eefa62a94be44fed3377d1ee372513fbcbe02bbc438a2a",
+    "images/maps-15146-moorpark-subject.png": "1430d15d466bcad9d1223706b84be8abcec852c6e15fd98532f404e3d733f3f3",
+    "images/maps-15146-moorpark-subject-tall.png": "f271ec29d4fd31af7463a6cfc461795b79566eb0c2f21f7cc79e4cf5ad6d587d",
+    "images/maps-15146-moorpark-sale-comps.png": "659eb21a0ed56397f33348b2a11d362114f9171cd4966863ae11904439894d6a",
+    "images/maps-15146-moorpark-sale-comps-tall.png": "849d6907f83e9bb319e4bcf961590584fc852860304821ce8679b88bc67af873",
+    "images/maps-15146-moorpark-rent-comps.png": "d52e274b09196e45ec89b54d7e361eaf33c4e7666313c9f8bc246fee840eb50a",
+    "images/maps-15146-moorpark-rent-comps-tall.png": "f485817078fa76f823c29d812f5184aea50e733399af30fef43d8fa3d9ad0d59",
+    "images/maps-15146-moorpark-active-comps.png": "30d96b2f59ec43ce9bac508b694616022b50c7e255751850539347845b1f2b72",
+    "images/maps-15146-moorpark-active-comps-tall.png": "baff850c73404927cec06dabbbefb05312594a001e7807460e94fa4773ab132e",
+    "images/maps-15146-moorpark-closings.png": "97de855c609a4d8b5dcfd1618873bc51ef68e7c059e2dc2fe3f51c9ec7a09cc3"
+  },
+  "closings": {
+    "15146-moorpark": {
+      "source": "https://www.laaa.com/track-record",
+      "pulled": "2026-09-17T01:18:00+00:00",
+      "basis": {
+        "type": "submarket",
+        "label": "Sherman Oaks"
+      },
+      "apartment_sales": 24,
+      "other_closings": 4,
+      "apartment_markers": 19,
+      "other_markers": 4,
+      "activity_markers": 0,
+      "render": "images/maps-15146-moorpark-closings.png"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "deal",
+  "deal_id": "moorpark-15146",
+  "portfolio_id": null,
+  "package_version": "v2",
+  "approved_at": "2026-09-17T01:39:20.786844+00:00",
+  "approver": "Morgan Wetmore",
+  "price": {
+    "value": 2800000.0
+  },
+  "approved_exception_ids": [
+    "Q-moorpark-pricing",
+    "Q-moorpark-unit-config"
+  ],
+  "domains": {
+    "copy": {
+      "content_sha256": "55406915707cb5a6c95e73e63e9437e991c57964747ae0d3692ade8bd7245acb"
+    },
+    "financial_inputs": {
+      "content_sha256": "e0fc889f794e6a3cb1d75194d16f011f358f7ec5886631dc3b572b2d7119c5f5"
+    },
+    "identity": {
+      "content_sha256": "856159d68e401d53232a3ca4417e035d0a07db3b5201d88a54a2d13c1efbfa66"
+    },
+    "media_selection": {
+      "content_sha256": "a55865694394af426a98b4b020a6124be64acc6bd31521fc7ce105da14fd623e"
+    },
+    "pricing_decision": {
+      "content_sha256": "514e8ed9d75779fdadacedb1781a85f48549b8003a178ef3c33f9c90b6bbcaac"
+    },
+    "regulatory_conclusions": {
+      "content_sha256": "23db1d1dce66b0e1fa61543bdc5fe438be5bd6e7ed00c37a451f6a3787f14702"
+    },
+    "rent_comps": {
+      "content_sha256": "956c6bcecbfeb0f8f1ed94f38446b21b2f19703a1766d41e60de90f8f884fc89"
+    },
+    "sale_comps": {
+      "content_sha256": "30f2f3938a0feecbf1525682b6f6a83158aacca9aa1c9c5af4cfa9af3c94294f"
+    }
+  },
+  "legacy_snapshot": false,
+  "legacy_label": null,
+  "members": null
+}
