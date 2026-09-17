@@ -201,7 +201,7 @@ def image_references(html):
     skipped the mobile side of every ``<picture>`` element, so a missing tall
     map could pass while the desktop image existed.
     """
-    suffix = r"(?:jpg|jpeg|png|webp|svg)"
+    suffix = r"(?:jpg|jpeg|png|webp|gif|avif|svg)"
     refs = set(re.findall(
         rf"""(?:src|href|content)=["']([^"']+\.{suffix}(?:[?#][^"']*)?)["']""",
         html,
@@ -384,6 +384,34 @@ def check_no_empty_labelled_containers(rel, html):
                  f"the block when the spine supplies nothing for it.")
 
 
+def check_model_pages(site, site_data):
+    """Every model print page on disk must be the bytes the build hashed.
+
+    The payload carries a SHA-256 for each generated page and that digest sits
+    inside the approval-bound presentation hash, so this check is what makes
+    the binding reach the file: an images/*.svg edited after `bov build` would
+    otherwise pass the allowlist, the existence check and the approval gate
+    while showing a different operating statement (Codex P1 on #394).
+    """
+    problems = []
+    for prop in (site_data or {}).get("properties") or []:
+        for i, page in enumerate(prop.get("model_pages") or []):
+            src = page.get("src") if isinstance(page, dict) else None
+            if not src:
+                problems.append(f"{prop.get('slug')}: model_pages[{i}] has no src")
+                continue
+            path = site / src
+            if not path.is_file():
+                problems.append(f"{prop.get('slug')}: model page missing on disk: {src}")
+                continue
+            digest = hashlib.sha256(path.read_bytes()).hexdigest()
+            if digest != page.get("sha256"):
+                problems.append(
+                    f"{prop.get('slug')}: {src} bytes differ from the digest bov-site.json "
+                    f"records; the page was changed after the build.")
+    return problems
+
+
 def check_certified_map_renders(site, referenced_images):
     """Re-hash every map image that the deployable pages reference."""
     map_refs = sorted(
@@ -434,12 +462,16 @@ def main(site):
     # Subject prices come from the data file, so the price-discipline check does
     # not depend on how the reveal happens to be marked up.
     prices_by_slug, site_data, property_slugs = {}, {}, set()
+    declared_documents = set()
     # Unit count per slug, so the mandatory-section rule can tell a land deal
     # from an apartment building that dropped a section it owed the reader.
     payload_units_by_slug: dict[str, int] = {}
     if (site / "bov-site.json").exists():
         try:
             site_data = json.loads((site / "bov-site.json").read_text(encoding="utf-8"))
+            declared_documents = {
+                d for d in (site_data.get("documents") or []) if isinstance(d, str)
+            }
             for p in site_data.get("properties") or []:
                 if p.get("slug"):
                     property_slugs.add(p["slug"])
@@ -526,6 +558,18 @@ def main(site):
         if "pdf-float-btn" in html or re.search(r'>\s*Download PDF\s*<', html):
             fail(f"{rel}: carries a Download PDF button. Removed from websites (Glen, 2026-07-30).")
 
+        # 12b. a comp document offered for download (an active listing's OM) is
+        # a declared PDF under documents/ that exists. The declaration is what
+        # the deploy-artifact scope gate (19) and the deploy staging trust, so
+        # an href to anything else is a broken button or an undeclared file.
+        for ref in set(re.findall(r'href=["\'](documents/[^"\']+)["\']', html, re.I)):
+            if ref not in declared_documents:
+                fail(f"{rel}: links {ref}, which bov-site.json does not declare under documents.",
+                     blocking=True)
+            elif not (site / ref).is_file():
+                fail(f"{rel}: links {ref} but the file is missing from the deploy tree.",
+                     blocking=True)
+
         # 13. size sanity. An empty render and a bloated one both signal a broken build.
         kb = len(html.encode()) // 1024
         if kb < 25:
@@ -606,6 +650,8 @@ def main(site):
     # deployable pages. The build-time schema check is not enough: a PNG can be
     # changed after generation but before workflow_dispatch.
     check_certified_map_renders(site, referenced_images)
+    for problem in check_model_pages(site, site_data):
+        fail(problem, blocking=True)
 
     # 17. required files
     for name in REQUIRED_FILES:
@@ -683,7 +729,7 @@ def main(site):
     # message this emits names a FILE and a class of artifact, deliberately
     # never a price, an address or a credential, so it matched none of the
     # blocking patterns and the entire check printed as advisory.
-    for message in _site_artifacts().artifact_scope_errors(site, property_slugs):
+    for message in _site_artifacts().artifact_scope_errors(site, property_slugs, declared_documents):
         fail(message, blocking=True)
 
     return report(site, pages)

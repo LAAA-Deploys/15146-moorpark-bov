@@ -2,6 +2,7 @@
   "schema_version": 3,
   "document_type": "bov",
   "site_mode": "single",
+  "documents": [],
   "meta": {
     "domain": "15146-moorpark.laaa.com",
     "client": "Mark Lerman",
@@ -10,7 +11,7 @@
     "month_year": "September 2026",
     "cover_label": "Confidential Broker Opinion of Value  |  Marcus & Millichap, #1 in U.S. Multifamily Sales",
     "noindex": true,
-    "hero": "images/moorpark-01-exterior.jpg",
+    "hero": "images/moorpark-01-living-room-patio.jpg",
     "hero_tall": null
   },
   "team": {
@@ -160,7 +161,7 @@
       "year_built": 2005,
       "renovated_year": null,
       "parking": "Gated subterranean garage beneath the building; space count pending confirmation with ownership",
-      "hero": "images/moorpark-01-exterior.jpg",
+      "hero": "images/moorpark-01-living-room-patio.jpg",
       "price": 3125000.0,
       "price_per_unit": 446428.57,
       "price_per_sf": 289.89,
@@ -519,54 +520,47 @@
           "alt": "Street Elevation"
         },
         {
-          "src": "images/moorpark-03-aerial.jpg",
-          "alt": "Aerial View"
+          "src": "images/moorpark-03-kitchen.jpg",
+          "alt": "Renovated Kitchen"
         },
         {
           "src": "images/moorpark-04-living-room.jpg",
           "alt": "Living Room"
         },
         {
-          "src": "images/moorpark-05-living-room-patio.jpg",
-          "alt": "Living Room And Patio"
-        },
-        {
-          "src": "images/moorpark-06-kitchen.jpg",
-          "alt": "Renovated Kitchen"
-        },
-        {
-          "src": "images/moorpark-07-kitchen-stair.jpg",
+          "src": "images/moorpark-05-kitchen-stair.jpg",
           "alt": "Kitchen And Stair"
         },
         {
-          "src": "images/moorpark-08-kitchen-detail.jpg",
+          "src": "images/moorpark-06-kitchen-detail.jpg",
           "alt": "Kitchen Detail"
         },
         {
-          "src": "images/moorpark-09-bedroom.jpg",
+          "src": "images/moorpark-07-bedroom.jpg",
           "alt": "Bedroom"
         },
         {
-          "src": "images/moorpark-10-bathroom.jpg",
+          "src": "images/moorpark-08-bathroom.jpg",
           "alt": "Bathroom"
         },
         {
-          "src": "images/moorpark-11-shower.jpg",
+          "src": "images/moorpark-09-shower.jpg",
           "alt": "Tiled Shower"
         },
         {
-          "src": "images/moorpark-12-in-unit-laundry.jpg",
+          "src": "images/moorpark-10-in-unit-laundry.jpg",
           "alt": "In Unit Laundry"
         },
         {
-          "src": "images/moorpark-13-entry.jpg",
+          "src": "images/moorpark-11-entry.jpg",
           "alt": "Unit Entry"
         },
         {
-          "src": "images/moorpark-14-roof-deck.jpg",
+          "src": "images/moorpark-12-roof-deck.jpg",
           "alt": "Shared Roof Deck"
         }
       ],
+      "model_pages": [],
       "maps": {
         "subject": "images/maps-15146-moorpark-subject.png",
         "sale": "images/maps-15146-moorpark-sale-comps.png",
@@ -670,6 +664,7 @@
           "cap_rate": 4.8,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "The anchor comparable: same submarket, same zip code, one year apart in vintage, a third of a mile away, and the only closed sale in the set inside Sherman Oaks itself.",
           "relevance": "The closest comparable sale to the subject at a third of a mile, in the same 91403 zip code, built in 2004 against the subject's 2005.; Eight units across 8,809 square feet, 1,101 square feet per unit against the subject's 1,540, so the subject reads higher on price per unit and lower on price per square foot.",
           "considerations": "Zero days on market. The sale never went to the MLS as a listing: the record is an Entry Only comparable posted from tax sales information after closing, so the building traded off market with no marketing period at all.",
@@ -693,6 +688,7 @@
           "cap_rate": 4.7862,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "A 2003 non-RSO building of the same product class that cleared its ask in 17 days, which is the clearest evidence in the set of how quickly this vintage trades.",
           "relevance": "Ten units across 11,730 square feet on a 9,510 square foot lot, built in 2003 and the largest building in the set.; 1,173 square feet per unit, with twenty bedrooms and twenty-eight bathrooms, a smaller and more bedroom-dense floor plan than the subject's townhomes.",
           "considerations": "17 days on market. Closed at $3,000,000 against a $2,950,000 ask, 1.7% above asking.; Van Nuys 91401 rather than Sherman Oaks 91403, and gross rent per unit runs materially below the subject's.",
@@ -716,6 +712,7 @@
           "cap_rate": 5.9323,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "The closest match on product type, eight non-RSO two-bedroom townhomes built in 2003, with a full income statement in the MLS record. It sits in North Hollywood rather than Sherman Oaks, which is why it prices lower per unit and reads a higher cap rate.",
           "relevance": "Eight two-bedroom townhome units across 6,396 square feet, 800 square feet per unit against the subject's 1,540, the smallest units in the set.; Built in 2003, two-story, zoned R3-1, with sixteen on-site parking spaces and private balconies on six of the eight units.",
           "considerations": "13 days on market. Closed at $2,900,000 against a $3,195,000 ask, 9.2% below asking.; Landlord expenses limited to water, common-area electricity and trash, with rents of $2,635 per unit against the subject's $3,015 average.",
@@ -741,6 +738,7 @@
           "cap_rate": 4.279999999999999,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "41 days on market and unsold. The competing Sherman Oaks listing, priced at $639,000 a unit. Separate APNs give it a condominium conversion path the subject does not have, which is part of why it asks what it asks.",
           "relevance": "Five three-bedroom townhomes built in 2008, each on its own APN, with private garages, rooftop decks and in-unit laundry.; 1,254 square feet per unit against the subject's 1,540, and five units against seven.",
           "considerations": "Listed 5 August 2026 at $3,195,000 and unsold at 41 days on market.; In-place rents of $3,300 to $3,750 with projected rents of $3,750 to $4,000, which is the direct market test of the subject's three-bedroom pro forma rent.; LAAA sold this property in 2014 for $2,750,000.",
@@ -764,6 +762,7 @@
           "cap_rate": 4.75,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "72 days on market and unsold. Same vintage band and unit count, in Van Nuys rather than Sherman Oaks, so it is competing supply rather than proof of value.",
           "relevance": "Eight units across 8,605 square feet built in 2007, 1,076 square feet per unit.",
           "considerations": "Asking $2,750,000 after 2 months and 12 days on the market.",
@@ -787,6 +786,7 @@
           "cap_rate": 4.63,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "147 days on market and unsold. The closest active listing to the subject on total building area and price per unit, which makes it the practical ceiling test for a Van Nuys ask at this size.",
           "relevance": "Eight units across 10,350 square feet built in 2007, 1,294 square feet per unit, the closest active listing to the subject on building size.",
           "considerations": "Asking $3,900,000, or $487,500 per unit, after 4 months and 26 days on the market.",
@@ -810,6 +810,7 @@
           "cap_rate": 4.34,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "248 days on market and unsold, the longest exposure of the four. Outside the 2000 to 2015 vintage band and above the subject's size class, carried for the ceiling it sets on newer non-RSO product.",
           "relevance": "Twelve units across 13,083 square feet built in 2018, newer and larger than anything else in the set.",
           "considerations": "Asking $6,250,000, or $520,833 per unit, after 8 months and 8 days on the market, the longest exposure of the four active listings.",
@@ -1025,6 +1026,94 @@
           "other_markers": 4,
           "activity_markers": 0,
           "render": "images/maps-15146-moorpark-closings.png"
+        },
+        "local_listings": [
+          {
+            "address": "7061 Whitsett Ave",
+            "city": "North Hollywood, CA",
+            "slug": "7061-whitsett",
+            "units": 13,
+            "price": 2975000,
+            "price_per_unit": 228846,
+            "status": "available",
+            "cap_rate": 5.38,
+            "distance": 4.54
+          },
+          {
+            "address": "10455 Magnolia Blvd",
+            "city": "North Hollywood, CA",
+            "slug": "10455-magnolia",
+            "units": 26,
+            "price": 9200000,
+            "price_per_unit": 353846,
+            "status": "available",
+            "cap_rate": 5.03,
+            "distance": 6.02
+          },
+          {
+            "address": "300 N Screenland Dr",
+            "city": "Burbank, CA",
+            "slug": "300-n-screenland",
+            "units": 5,
+            "price": 1750000,
+            "price_per_unit": 350000,
+            "status": "available",
+            "cap_rate": 5.08,
+            "distance": 6.95
+          },
+          {
+            "address": "7018 Alabama Ave",
+            "city": "Canoga Park, CA",
+            "slug": "7018-alabama",
+            "units": 9,
+            "price": 5100000,
+            "price_per_unit": 566667,
+            "status": "available",
+            "cap_rate": 5.27,
+            "distance": 8.31
+          },
+          {
+            "address": "2001-2005 Grismer Avenue",
+            "city": "Burbank, CA",
+            "slug": "2001-2005-grismer",
+            "units": 14,
+            "price": 5350000,
+            "price_per_unit": 382143,
+            "status": "available",
+            "cap_rate": 4.56,
+            "distance": 8.38
+          },
+          {
+            "address": "13724 Victory Blvd",
+            "city": "Van Nuys, CA",
+            "slug": "13724-victory",
+            "units": 68,
+            "price": 22900000,
+            "price_per_unit": 336765,
+            "status": "in-escrow",
+            "cap_rate": 5.5,
+            "distance": 2.85
+          },
+          {
+            "address": "20234 Roscoe Blvd",
+            "city": "Winnetka, CA",
+            "slug": "20234-roscoe",
+            "units": 25,
+            "price": 4750000,
+            "price_per_unit": 190000,
+            "status": "in-escrow",
+            "cap_rate": 5.51,
+            "distance": 7.8
+          }
+        ],
+        "local_listings_basis": {
+          "type": "radius",
+          "label": "within 10 miles",
+          "radius_mi": 10
+        },
+        "local_listings_source": {
+          "source": "https://www.laaa.com/listings",
+          "pulled": "2026-09-17T17:07:56+00:00"
         }
       }
     }
@@ -2678,20 +2767,18 @@
         "moorpark-09",
         "moorpark-10",
         "moorpark-11",
-        "moorpark-12",
-        "moorpark-13",
-        "moorpark-14"
+        "moorpark-12"
       ],
       "hero": "moorpark-01",
       "items": [
         {
           "id": "moorpark-01",
-          "sha256": "df0787ea4a5d431c21a754cb06221ac297a123f5afd1115144cb12912f980a8e",
-          "phash": "83dc2d586d5b6466",
-          "category": "exterior",
+          "sha256": "cc3e36b918d734162d15cd1c6d2fb6bdfd51996eaa05af059d0e3b11a8969a59",
+          "phash": "c0ac695f5e869173",
+          "category": "living_room_and_patio",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Drone elevation of 15146 Moorpark St published on the LoopNet property record for this address. The street number 15146 is legible above the entry door and the neighbouring 1515x address plate is visible at the right edge. Confirmed by Morgan Wetmore.",
+          "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
@@ -2704,7 +2791,7 @@
           "category": "street_elevation",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Supplied by the listing agent from the online listing photo set published for 15146 Moorpark St, Sherman Oaks, which Apartments.com carries under the property name The Moorpark Residences at this exact address. The set is confirmed against the property by its exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Confirmed by Morgan Wetmore, who runs the listing assignment.",
+          "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
@@ -2712,12 +2799,12 @@
         },
         {
           "id": "moorpark-03",
-          "sha256": "3f400e1b695e9306fa9a19af0a216ca18b0a1d64cf6e336786321b266bf52432",
-          "phash": "dc686be872849bcc",
-          "category": "aerial_view",
+          "sha256": "1a7330007ee19f008e3e55a5b2c0c770fba3ffbb9d374112dfd34ed50d39975b",
+          "phash": "8df76b21e3454c2a",
+          "category": "renovated_kitchen",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Aerial from the MLS 19-422846 photo set, which Redfin serves on the property page for 15146 Moorpark St. The roof, the roof deck and the entry walk match the exterior elevation. Confirmed by Morgan Wetmore.",
+          "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
@@ -2730,7 +2817,7 @@
           "category": "living_room",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Supplied by the listing agent from the online listing photo set published for 15146 Moorpark St, Sherman Oaks, which Apartments.com carries under the property name The Moorpark Residences at this exact address. The set is confirmed against the property by its exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Confirmed by Morgan Wetmore, who runs the listing assignment.",
+          "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
@@ -2738,12 +2825,12 @@
         },
         {
           "id": "moorpark-05",
-          "sha256": "cc3e36b918d734162d15cd1c6d2fb6bdfd51996eaa05af059d0e3b11a8969a59",
-          "phash": "c0ac695f5e869173",
-          "category": "living_room_and_patio",
+          "sha256": "ab04cc709434c41958f3aeafd0a22a113bee29b56b057135726e1372245ea0d5",
+          "phash": "f3f0dc1f22523227",
+          "category": "kitchen_and_stair",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Supplied by the listing agent from the online listing photo set published for 15146 Moorpark St, Sherman Oaks, which Apartments.com carries under the property name The Moorpark Residences at this exact address. The set is confirmed against the property by its exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Confirmed by Morgan Wetmore, who runs the listing assignment.",
+          "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
@@ -2751,12 +2838,12 @@
         },
         {
           "id": "moorpark-06",
-          "sha256": "1a7330007ee19f008e3e55a5b2c0c770fba3ffbb9d374112dfd34ed50d39975b",
-          "phash": "8df76b21e3454c2a",
-          "category": "renovated_kitchen",
+          "sha256": "a2ee51b1a1dc6f6ed90d4b8fcafdbabde53315aacd80352fc1f936351b0d108e",
+          "phash": "96c3037492e77b2c",
+          "category": "kitchen_detail",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Supplied by the listing agent from the online listing photo set published for 15146 Moorpark St, Sherman Oaks, which Apartments.com carries under the property name The Moorpark Residences at this exact address. The set is confirmed against the property by its exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Confirmed by Morgan Wetmore, who runs the listing assignment.",
+          "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
@@ -2764,12 +2851,12 @@
         },
         {
           "id": "moorpark-07",
-          "sha256": "ab04cc709434c41958f3aeafd0a22a113bee29b56b057135726e1372245ea0d5",
-          "phash": "f3f0dc1f22523227",
-          "category": "kitchen_and_stair",
+          "sha256": "82b1ee7f1ebbfeab59492dc42c70d7b987f7481cffcdba39410a5ca5970ec5ad",
+          "phash": "d6d52b2eb0cb4e30",
+          "category": "bedroom",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Supplied by the listing agent from the online listing photo set published for 15146 Moorpark St, Sherman Oaks, which Apartments.com carries under the property name The Moorpark Residences at this exact address. The set is confirmed against the property by its exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Confirmed by Morgan Wetmore, who runs the listing assignment.",
+          "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
@@ -2777,12 +2864,12 @@
         },
         {
           "id": "moorpark-08",
-          "sha256": "a2ee51b1a1dc6f6ed90d4b8fcafdbabde53315aacd80352fc1f936351b0d108e",
-          "phash": "96c3037492e77b2c",
-          "category": "kitchen_detail",
+          "sha256": "12f6166a481ffd2bd1475b97ba7eab14523ab40715a3ed48074b8a0f8470a3e4",
+          "phash": "8c983fb6c92d1669",
+          "category": "bathroom",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Supplied by the listing agent from the online listing photo set published for 15146 Moorpark St, Sherman Oaks, which Apartments.com carries under the property name The Moorpark Residences at this exact address. The set is confirmed against the property by its exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Confirmed by Morgan Wetmore, who runs the listing assignment.",
+          "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
@@ -2790,12 +2877,12 @@
         },
         {
           "id": "moorpark-09",
-          "sha256": "82b1ee7f1ebbfeab59492dc42c70d7b987f7481cffcdba39410a5ca5970ec5ad",
-          "phash": "d6d52b2eb0cb4e30",
-          "category": "bedroom",
+          "sha256": "5b92130ed0ff14dc7f42d3aea0052d9dc2fd866084561a7796ff5a71174cf6f0",
+          "phash": "af42d717c1ccb2c1",
+          "category": "tiled_shower",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Supplied by the listing agent from the online listing photo set published for 15146 Moorpark St, Sherman Oaks, which Apartments.com carries under the property name The Moorpark Residences at this exact address. The set is confirmed against the property by its exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Confirmed by Morgan Wetmore, who runs the listing assignment.",
+          "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
@@ -2803,12 +2890,12 @@
         },
         {
           "id": "moorpark-10",
-          "sha256": "12f6166a481ffd2bd1475b97ba7eab14523ab40715a3ed48074b8a0f8470a3e4",
-          "phash": "8c983fb6c92d1669",
-          "category": "bathroom",
+          "sha256": "a26b2b8214d47bedf0eb1f57cdd6d37915edcc8a952c2e478a87e8cca09cc040",
+          "phash": "e6c07d869bd2641b",
+          "category": "in_unit_laundry",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Supplied by the listing agent from the online listing photo set published for 15146 Moorpark St, Sherman Oaks, which Apartments.com carries under the property name The Moorpark Residences at this exact address. The set is confirmed against the property by its exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Confirmed by Morgan Wetmore, who runs the listing assignment.",
+          "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
@@ -2816,12 +2903,12 @@
         },
         {
           "id": "moorpark-11",
-          "sha256": "5b92130ed0ff14dc7f42d3aea0052d9dc2fd866084561a7796ff5a71174cf6f0",
-          "phash": "af42d717c1ccb2c1",
-          "category": "tiled_shower",
+          "sha256": "7fb95cc4b5f5bfc21a6b6edc8a20639b63758f5aef619b3af6129596d9864b0b",
+          "phash": "86c3613e3727d8c9",
+          "category": "unit_entry",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Supplied by the listing agent from the online listing photo set published for 15146 Moorpark St, Sherman Oaks, which Apartments.com carries under the property name The Moorpark Residences at this exact address. The set is confirmed against the property by its exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Confirmed by Morgan Wetmore, who runs the listing assignment.",
+          "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
@@ -2829,38 +2916,12 @@
         },
         {
           "id": "moorpark-12",
-          "sha256": "a26b2b8214d47bedf0eb1f57cdd6d37915edcc8a952c2e478a87e8cca09cc040",
-          "phash": "e6c07d869bd2641b",
-          "category": "in_unit_laundry",
-          "stock_or_illustrative": false,
-          "property_match": "confirmed_human",
-          "match_basis": "Supplied by the listing agent from the online listing photo set published for 15146 Moorpark St, Sherman Oaks, which Apartments.com carries under the property name The Moorpark Residences at this exact address. The set is confirmed against the property by its exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Confirmed by Morgan Wetmore, who runs the listing assignment.",
-          "publication_basis": "glen_standing_rule",
-          "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
-          "required_credit": null,
-          "exception_id": null
-        },
-        {
-          "id": "moorpark-13",
-          "sha256": "7fb95cc4b5f5bfc21a6b6edc8a20639b63758f5aef619b3af6129596d9864b0b",
-          "phash": "86c3613e3727d8c9",
-          "category": "unit_entry",
-          "stock_or_illustrative": false,
-          "property_match": "confirmed_human",
-          "match_basis": "Supplied by the listing agent from the online listing photo set published for 15146 Moorpark St, Sherman Oaks, which Apartments.com carries under the property name The Moorpark Residences at this exact address. The set is confirmed against the property by its exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Confirmed by Morgan Wetmore, who runs the listing assignment.",
-          "publication_basis": "glen_standing_rule",
-          "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
-          "required_credit": null,
-          "exception_id": null
-        },
-        {
-          "id": "moorpark-14",
           "sha256": "21bf954b83789d392098143782a528e47ad1328b46e39d687613b7086968dc17",
           "phash": "a6e6f05db21b8147",
           "category": "shared_roof_deck",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Roof deck frame from the same online listing photo set for 15146 Moorpark St, supplied by the listing agent. The Apartments.com listing for this building lists a roof deck accessible to all tenants, and the exterior elevations show white rooftop railings on the same level. Confirmed by Morgan Wetmore.",
+          "match_basis": "Supplied by the listing agent in the deal folder photo set for 15146 Moorpark St, Sherman Oaks, published online for this address under the property name The Moorpark Residences. Confirmed against the property by the set's own exterior frame, which matches the 2019 MLS 19-422846 exterior for this address building for building: same cream stucco with brown window surrounds, same white rooftop railings, same recessed entry, same neighbouring white building on the right. Published here at the full resolution of the same source frame rather than the thumbnail. Confirmed by Morgan Wetmore, who runs the listing assignment.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "Seller-facing broker opinion of value delivered to the property owner. Not cleared for public marketing use.",
           "required_credit": null,
@@ -2915,23 +2976,23 @@
       "sale_comps": "30f2f3938a0feecbf1525682b6f6a83158aacca9aa1c9c5af4cfa9af3c94294f",
       "rent_comps": "956c6bcecbfeb0f8f1ed94f38446b21b2f19703a1766d41e60de90f8f884fc89",
       "copy": "c4254251dcd2814dfd79539ea67c6660b9a68a80160b1465e55972e149ad2ac2",
-      "media_selection": "a55865694394af426a98b4b020a6124be64acc6bd31521fc7ce105da14fd623e",
+      "media_selection": "8614c2d870221cf04fa39188b0d9b515e52915f500ac85319e2f6ea28ad18562",
       "regulatory_conclusions": "23db1d1dce66b0e1fa61543bdc5fe438be5bd6e7ed00c37a451f6a3787f14702"
     },
     "presentation_hashes": {
-      "identity": "463cbb95f1b4f1fb83b220865ddc360f4f45886747ae3453bcf824a25592af86",
-      "financial_inputs": "d010a8364147509f79f410f1980fca5a9768117ddb0a9b0699608da31a2e2233",
+      "identity": "6d59a2724d44436ba45f2e898a1e06a040853ca958480a02321d5dd97ad25dae",
+      "financial_inputs": "e4b3d6231f3c1ec0c0b3c3cdd10456c28fcf8dff3ff64a0b78df84ab2081eecb",
       "pricing_decision": "7af12ce0ea806762daadb4591c9a3a9863b9e4acdf2e75d3cda86b8ecffa4350",
-      "sale_comps": "f5c01b010ca60dde5668337793761b29c8b6f083b60ec52b8fd0a5286c2b47bd",
+      "sale_comps": "378e2c19e8f2bc148e4caffc39674756a94ec88346ae3e756b5b1ecada166a95",
       "rent_comps": "f21f67169042c89cd9b49f16f8ba68b5673bcb4d68d58e646e0b4e872ff73bc9",
       "copy": "dad1127b940cd7f90def34fe04afbe8fa2410761ac6d94bfd56b064d1bf34c2a",
-      "media_selection": "20b77ee4202c378fba0cd37fdd50d7b7077cc2dd3e5b58d1cf40e55de939e762",
+      "media_selection": "686aad5b3539aa20c8a554bef491657b655a25a8dd9a6eecef3400d391f81b0e",
       "regulatory_conclusions": "08190f452f133c30af4537246c9c67dc864c729fe433361adca2e8282cd25f81"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-17T01:44:39+00:00",
+    "generated": "2026-09-17T17:07:56+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,

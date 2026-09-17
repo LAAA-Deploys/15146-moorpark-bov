@@ -163,16 +163,53 @@ jobs:
               raise SystemExit("FAIL: generated pages reference no image assets")
           images_root = Path("images").resolve()
           allowed_suffixes = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".avif"}
+          # The model print publishes as generated vector SVG (payload
+          # ._model_page_filename). Those are the ONLY SVGs a build produces,
+          # every one carries a SHA-256 in bov-site.json that check_bov_site.py
+          # re-hashes against the staged file, and the generator names them, not
+          # a person. So they stage under that exact name pattern instead of
+          # opening images/ to arbitrary SVG, which can carry script. Without
+          # this a deal declaring presentation.model_print builds and passes
+          # every local gate, then fails the deploy stage on its own generated
+          # pages (24377 Newhall, the first release after #394).
+          model_page = re.compile(
+              r"images/(?:[a-z0-9]+(?:-[a-z0-9]+)*-)?model-page-\d{2}\.svg\Z")
           for relative in sorted(referenced_images):
               source = Path(relative)
               try:
                   source.resolve().relative_to(images_root)
               except ValueError:
                   raise SystemExit(f"FAIL: referenced image escapes images/: {source}")
-              if source.suffix.lower() not in allowed_suffixes:
+              if source.suffix.lower() not in allowed_suffixes and not model_page.fullmatch(relative):
                   raise SystemExit(f"FAIL: referenced asset is not an approved image type: {source}")
               if not source.is_file():
                   raise SystemExit(f"FAIL: missing referenced image: {source}")
+              destination = Path("_site") / relative
+              destination.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copy2(source, destination)
+
+          # Comp documents (an active listing's OM offered for download). A
+          # PDF is staged only when the built payload DECLARES it and a page
+          # links it; documents/ is never copied as a tree.
+          declared = {d for d in data.get("documents") or [] if isinstance(d, str)}
+          referenced_documents = set()
+          for page in Path("_site").rglob("*.html"):
+              markup = page.read_text(encoding="utf-8")
+              referenced_documents.update(
+                  unescape(path) for path in re.findall(r'href=["\'](documents/[^"\']+)["\']', markup))
+          documents_root = Path("documents").resolve()
+          for relative in sorted(referenced_documents):
+              if relative not in declared:
+                  raise SystemExit(f"FAIL: page links an undeclared document: {relative}")
+              source = Path(relative)
+              try:
+                  source.resolve().relative_to(documents_root)
+              except ValueError:
+                  raise SystemExit(f"FAIL: referenced document escapes documents/: {source}")
+              if source.suffix.lower() != ".pdf":
+                  raise SystemExit(f"FAIL: referenced document is not a PDF: {source}")
+              if not source.is_file():
+                  raise SystemExit(f"FAIL: missing referenced document: {source}")
               destination = Path("_site") / relative
               destination.parent.mkdir(parents=True, exist_ok=True)
               shutil.copy2(source, destination)

@@ -3,8 +3,8 @@
   "scope": "deal",
   "deal_id": "moorpark-15146",
   "portfolio_id": null,
-  "package_version": "v3",
-  "approved_at": "2026-09-17T01:44:17.304831+00:00",
+  "package_version": "v4",
+  "approved_at": "2026-09-17T17:07:39.706539+00:00",
   "approver": "Morgan Wetmore",
   "price": {
     "value": 3125000.0
@@ -24,7 +24,7 @@
       "content_sha256": "856159d68e401d53232a3ca4417e035d0a07db3b5201d88a54a2d13c1efbfa66"
     },
     "media_selection": {
-      "content_sha256": "a55865694394af426a98b4b020a6124be64acc6bd31521fc7ce105da14fd623e"
+      "content_sha256": "8614c2d870221cf04fa39188b0d9b515e52915f500ac85319e2f6ea28ad18562"
     },
     "pricing_decision": {
       "content_sha256": "d6c6063c1b4e0d24f68c5b02c72d56e3e65775b2193d72d9191492eced3b00b5"
