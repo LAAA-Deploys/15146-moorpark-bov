@@ -161,46 +161,46 @@
       "renovated_year": null,
       "parking": "Gated subterranean garage beneath the building; space count pending confirmation with ownership",
       "hero": "images/moorpark-01-exterior.jpg",
-      "price": 2800000.0,
-      "price_per_unit": 400000.0,
-      "price_per_sf": 259.74,
-      "value_range": "$2,700,000 to $2,800,000",
+      "price": 3125000.0,
+      "price_per_unit": 446428.57,
+      "price_per_sf": 289.89,
+      "value_range": "$3,000,000 to $3,125,000",
       "opinion_of_value": [
         {
           "label": "Suggested list price",
-          "price": 2800000.0,
-          "price_per_unit": 400000.0,
-          "price_per_sf": 259.7402597402597,
+          "price": 3125000.0,
+          "price_per_unit": 446428.5714285714,
+          "price_per_sf": 289.8886827458256,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 10.770059235325794,
-          "grm_market": 10.224948875255624,
-          "cap_current": 5.754579642857143,
-          "cap_market": 6.210722142857143
+          "grm_current": 12.020155396568967,
+          "grm_market": 11.411773298276366,
+          "cap_current": 5.03130336,
+          "cap_market": 5.44000704
         },
         {
           "label": "Midpoint",
-          "price": 2750000.0,
-          "price_per_unit": 392857.14285714284,
-          "price_per_sf": 255.10204081632654,
+          "price": 3062500.0,
+          "price_per_unit": 437500.0,
+          "price_per_sf": 284.09090909090907,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 10.57773674898069,
-          "grm_market": 10.042360502483202,
-          "cap_current": 5.881026545454546,
-          "cap_market": 6.345462545454546
+          "grm_current": 11.779752288637587,
+          "grm_market": 11.183537832310838,
+          "cap_current": 5.1584728163265305,
+          "cap_market": 5.575517387755102
         },
         {
           "label": "Range bottom",
-          "price": 2700000.0,
-          "price_per_unit": 385714.28571428574,
-          "price_per_sf": 250.46382189239333,
+          "price": 3000000.0,
+          "price_per_unit": 428571.4285714286,
+          "price_per_sf": 278.29313543599255,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 10.385414262635587,
-          "grm_market": 9.85977212971078,
-          "cap_current": 6.012156666666667,
-          "cap_market": 6.485193333333333
+          "grm_current": 11.539349180706209,
+          "grm_market": 10.955302366345311,
+          "cap_current": 5.290941,
+          "cap_market": 5.716674
         }
       ],
       "scheduled_rent": [
@@ -215,23 +215,23 @@
         0.0,
         0.0
       ],
-      "grm_current": 10.770059235325794,
-      "grm_market": 10.224948875255624,
-      "cap_current": 5.754579642857143,
-      "cap_market": 6.210722142857143,
+      "grm_current": 12.020155396568967,
+      "grm_market": 11.411773298276366,
+      "cap_current": 5.03130336,
+      "cap_market": 5.44000704,
       "cap_current_basis": "LAAA calculation: current NOI / recommended value",
       "cap_market_basis": "LAAA calculation: market NOI / recommended value",
-      "noi_current": 161128.23,
-      "noi_market": 173900.22,
+      "noi_current": 157228.23,
+      "noi_market": 170000.22,
       "tax_rate": 1.2,
       "tax_anchor": {
-        "ad_valorem": 33600.0,
+        "ad_valorem": 37500.0,
         "flat_assessments": 0.0,
         "expense_line": "Real Estate Taxes"
       },
-      "expense_total": 91052.37,
-      "expense_per_unit": 13007.481428571427,
-      "expense_per_sf": 8.446416512059368,
+      "expense_total": 94952.37,
+      "expense_per_unit": 13564.624285714284,
+      "expense_per_sf": 8.80819758812616,
       "unit_mix": [
         {
           "count": 6,
@@ -279,47 +279,47 @@
           265624.8
         ],
         "expenses": [
-          91052.37,
-          91724.58
+          94952.37,
+          95624.58
         ],
         "expense_ratio": [
-          36.10601687838002,
-          34.531632588523365
+          37.65252759332002,
+          35.999868988136654
         ],
         "noi": [
-          161128.23,
-          173900.22
+          157228.23,
+          170000.22
         ],
         "loan_payments": [
-          -126101.99,
-          -126101.99
+          -140738.83,
+          -140738.83
         ],
         "pretax_cf": [
-          35026.240000000005,
-          47798.229999999996
+          16489.400000000023,
+          29261.390000000014
         ],
         "pretax_cf_pct": [
-          3.1273428571428576,
-          4.267699107142857
+          1.3191520000000019,
+          2.3409112000000007
         ],
         "principal_reduction": [
-          19137,
-          20398
+          21358,
+          22766
         ],
         "total_return": [
-          54163.240000000005,
-          68196.23
+          37847.40000000002,
+          52027.390000000014
         ],
         "total_return_pct": [
-          4.836003571428572,
-          6.088949107142857
+          3.0277920000000016,
+          4.162191200000001
         ]
       },
       "expense_lines": [
         [
           "Real Estate Taxes",
-          33600.0,
-          33600.0,
+          37500.0,
+          37500.0,
           "4"
         ],
         [
@@ -428,10 +428,10 @@
       },
       "financing_structure": "new_financing",
       "financing": {
-        "loan_amount": 1680000,
+        "loan_amount": 1875000,
         "rate": 6.4,
         "amortization": 30,
-        "dcr": 1.2778,
+        "dcr": 1.1172,
         "basis": "illustrative_assumption"
       },
       "highlights": [
@@ -477,10 +477,10 @@
         "This is not a repositioning story and we are not going to present it as one. The building is already collecting most of what its submarket pays. The evidence supports a step up on turnover, 5.3% across the rent roll, and it does not support more than that."
       ],
       "valuation_narrative": [
-        "The suggested list price of $2,800,000 is $400,000 a unit and $259.74 per square foot. Against the three closed sales it sits 11% under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 36% under the $408.67 per square foot median of the set. The subject carries 1,540 gross square feet a unit against Kester's 1,101 and Camarillo's 800, so the per square foot reading is the one that moves furthest, and it moves in the buyer's direction.",
-        "On $161,128 of current net operating income the price is a 5.75% capitalization rate, and 6.21% once market rents are in place. Every closed comparable in the set traded between 4.79% and 5.93% on its own recorded net operating income. The gross rent multiplier of 10.77 sits below both comparables that report one, 11.47 on Camarillo St and 13.85 on Victory Blvd.",
-        "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 36.1% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff.",
-        "Priced here the building competes on yield rather than on scarcity, which is the faster route to a close. The two marketed comparables in the set traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
+        "The suggested list price of $3,125,000 is $446,429 a unit and $289.89 per square foot. Against the three closed sales it sits just under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 29% under the $408.67 per square foot median of the set. Those two readings come from the same fact: at 1,540 gross square feet a unit the subject carries 40% more space per unit than Kester and nearly twice Camarillo St, so it earns the unit price and gives back the foot price.",
+        "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85.",
+        "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 37.7% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff.",
+        "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
       ],
       "strategy": [
         {
@@ -488,8 +488,8 @@
           "copy": "Two facts carry this campaign. The building was finished in 2005 and its certificate of occupancy was issued in 2007, so it sits outside the Los Angeles Rent Stabilization Ordinance and under AB 1482 instead, where increases follow a published formula rather than a rent board. And the units are 1,100 to 1,400 square foot two story townhomes with in-unit laundry, fireplaces, private balconies and central air, which is why they rent at the top of the Sherman Oaks range rather than the middle of it."
         },
         {
-          "title": "Priced Under the Sherman Oaks Comp",
-          "copy": "The comparable set is deliberately narrow. Five to fifteen units, built between 2000 and 2015, which is the band that clears the Rent Stabilization Ordinance. Buyers in that band price off each other, and 4609 Kester Ave, a third of a mile west, is the transaction the campaign is built on. It closed at $450,000 a unit. The suggested list here is $400,000."
+          "title": "Priced Against the Sherman Oaks Comp",
+          "copy": "The comparable set is deliberately narrow. Five to fifteen units, built between 2000 and 2015, which is the band that clears the Rent Stabilization Ordinance. Buyers in that band price off each other, and 4609 Kester Ave, a third of a mile west, is the transaction the campaign is built on. It closed at $450,000 a unit. The suggested list here is $446,429."
         }
       ],
       "buyer_profiles": [
@@ -507,7 +507,7 @@
         }
       ],
       "disclosures": [
-        "Income is taken from ownership's rent roll paid through 30 September 2026 and from ownership's profit and loss statement for January through August 2026. Operating expenses are the lines carried in the M&M Multifamily Model as keyed for this property. Property taxes are reassessed to the suggested list price at 1.20%, and a buyer's actual bill will differ from the current owner's.",
+        "Income is taken from ownership's rent roll paid through 30 September 2026 and from ownership's profit and loss statement for January through August 2026. Operating expenses are the lines carried in the M&M Multifamily Model as keyed for this property. Property taxes are reassessed to the suggested list price at 1.20%, which is $37,500, and a buyer's actual bill will differ from the current owner's.",
         "Every rent comparable in this package is an asking rent rather than a signed lease. Market rents are presented as a conclusion drawn from that evidence, not as achieved rents at this property.",
         "The financing shown is an illustration at 60% loan to value, 6.40% interest and a 30 year amortization. It is not a quote, and no lender has been approached. A Marcus & Millichap Capital Corporation representative can source live terms.",
         "The unit mix published here follows ownership's rent roll, which designates six units 2x3 and one unit 3x3. The LA County Assessor records 14 bathrooms across the seven units and the Redfin public record carries 17.5. All three sources agree on 15 bedrooms. No conclusion in this analysis turns on the bathroom count.",
@@ -1090,11 +1090,11 @@
           ],
           "strategy_titles": [
             "Lead with the Rent Roll and the Rule Set",
-            "Priced Under the Sherman Oaks Comp"
+            "Priced Against the Sherman Oaks Comp"
           ],
           "strategy_copy": [
             "Two facts carry this campaign. The building was finished in 2005 and its certificate of occupancy was issued in 2007, so it sits outside the Los Angeles Rent Stabilization Ordinance and under AB 1482 instead, where increases follow a published formula rather than a rent board. And the units are 1,100 to 1,400 square foot two story townhomes with in-unit laundry, fireplaces, private balconies and central air, which is why they rent at the top of the Sherman Oaks range rather than the middle of it.",
-            "The comparable set is deliberately narrow. Five to fifteen units, built between 2000 and 2015, which is the band that clears the Rent Stabilization Ordinance. Buyers in that band price off each other, and 4609 Kester Ave, a third of a mile west, is the transaction the campaign is built on. It closed at $450,000 a unit. The suggested list here is $400,000."
+            "The comparable set is deliberately narrow. Five to fifteen units, built between 2000 and 2015, which is the band that clears the Rent Stabilization Ordinance. Buyers in that band price off each other, and 4609 Kester Ave, a third of a mile west, is the transaction the campaign is built on. It closed at $450,000 a unit. The suggested list here is $446,429."
           ],
           "pull_quote": [
             "We are proactive marketers, not reactive."
@@ -1180,13 +1180,13 @@
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "The suggested list price of $2,800,000 is $400,000 a unit and $259.74 per square foot. Against the three closed sales it sits 11% under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 36% under the $408.67 per square foot median of the set. The subject carries 1,540 gross square feet a unit against Kester's 1,101 and Camarillo's 800, so the per square foot reading is the one that moves furthest, and it moves in the buyer's direction.",
-            "On $161,128 of current net operating income the price is a 5.75% capitalization rate, and 6.21% once market rents are in place. Every closed comparable in the set traded between 4.79% and 5.93% on its own recorded net operating income. The gross rent multiplier of 10.77 sits below both comparables that report one, 11.47 on Camarillo St and 13.85 on Victory Blvd.",
-            "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 36.1% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff.",
-            "Priced here the building competes on yield rather than on scarcity, which is the faster route to a close. The two marketed comparables in the set traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
+            "The suggested list price of $3,125,000 is $446,429 a unit and $289.89 per square foot. Against the three closed sales it sits just under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 29% under the $408.67 per square foot median of the set. Those two readings come from the same fact: at 1,540 gross square feet a unit the subject carries 40% more space per unit than Kester and nearly twice Camarillo St, so it earns the unit price and gives back the foot price.",
+            "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85.",
+            "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 37.7% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff.",
+            "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
           ],
           "disclosures": [
-            "Income is taken from ownership's rent roll paid through 30 September 2026 and from ownership's profit and loss statement for January through August 2026. Operating expenses are the lines carried in the M&M Multifamily Model as keyed for this property. Property taxes are reassessed to the suggested list price at 1.20%, and a buyer's actual bill will differ from the current owner's.",
+            "Income is taken from ownership's rent roll paid through 30 September 2026 and from ownership's profit and loss statement for January through August 2026. Operating expenses are the lines carried in the M&M Multifamily Model as keyed for this property. Property taxes are reassessed to the suggested list price at 1.20%, which is $37,500, and a buyer's actual bill will differ from the current owner's.",
             "Every rent comparable in this package is an asking rent rather than a signed lease. Market rents are presented as a conclusion drawn from that evidence, not as achieved rents at this property.",
             "The financing shown is an illustration at 60% loan to value, 6.40% interest and a 30 year amortization. It is not a quote, and no lender has been approached. A Marcus & Millichap Capital Corporation representative can source live terms.",
             "The unit mix published here follows ownership's rent roll, which designates six units 2x3 and one unit 3x3. The LA County Assessor records 14 bathrooms across the seven units and the Redfin public record carries 17.5. All three sources agree on 15 bedrooms. No conclusion in this analysis turns on the bathroom count.",
@@ -1337,7 +1337,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "recommended positioning",
-          "text": "Priced Under the Sherman Oaks Comp"
+          "text": "Priced Against the Sherman Oaks Comp"
         },
         {
           "id": "strategy-1",
@@ -1357,7 +1357,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "recommended positioning",
-          "text": "The comparable set is deliberately narrow. Five to fifteen units, built between 2000 and 2015, which is the band that clears the Rent Stabilization Ordinance. Buyers in that band price off each other, and 4609 Kester Ave, a third of a mile west, is the transaction the campaign is built on. It closed at $450,000 a unit. The suggested list here is $400,000."
+          "text": "The comparable set is deliberately narrow. Five to fifteen units, built between 2000 and 2015, which is the band that clears the Rent Stabilization Ordinance. Buyers in that band price off each other, and 4609 Kester Ave, a third of a mile west, is the transaction the campaign is built on. It closed at $450,000 a unit. The suggested list here is $446,429."
         },
         {
           "id": "marketing-quote",
@@ -1778,7 +1778,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": null,
-          "text": "The suggested list price of $2,800,000 is $400,000 a unit and $259.74 per square foot. Against the three closed sales it sits 11% under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 36% under the $408.67 per square foot median of the set. The subject carries 1,540 gross square feet a unit against Kester's 1,101 and Camarillo's 800, so the per square foot reading is the one that moves furthest, and it moves in the buyer's direction."
+          "text": "The suggested list price of $3,125,000 is $446,429 a unit and $289.89 per square foot. Against the three closed sales it sits just under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 29% under the $408.67 per square foot median of the set. Those two readings come from the same fact: at 1,540 gross square feet a unit the subject carries 40% more space per unit than Kester and nearly twice Camarillo St, so it earns the unit price and gives back the foot price."
         },
         {
           "id": "val-2",
@@ -1788,7 +1788,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "On $161,128 of current net operating income the price is a 5.75% capitalization rate, and 6.21% once market rents are in place. Every closed comparable in the set traded between 4.79% and 5.93% on its own recorded net operating income. The gross rent multiplier of 10.77 sits below both comparables that report one, 11.47 on Camarillo St and 13.85 on Victory Blvd."
+          "text": "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85."
         },
         {
           "id": "val-3",
@@ -1798,7 +1798,7 @@
             "sources:mm-model-moorpark"
           ],
           "framed_as": "what the operating statement carries",
-          "text": "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 36.1% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff."
+          "text": "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 37.7% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff."
         },
         {
           "id": "val-4",
@@ -1808,7 +1808,7 @@
             "comps-sale:sale-kester"
           ],
           "framed_as": "the recommendation",
-          "text": "Priced here the building competes on yield rather than on scarcity, which is the faster route to a close. The two marketed comparables in the set traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
+          "text": "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
         },
         {
           "id": "disc-1",
@@ -1818,7 +1818,7 @@
             "sources:owner-pl-moorpark"
           ],
           "framed_as": null,
-          "text": "Income is taken from ownership's rent roll paid through 30 September 2026 and from ownership's profit and loss statement for January through August 2026. Operating expenses are the lines carried in the M&M Multifamily Model as keyed for this property. Property taxes are reassessed to the suggested list price at 1.20%, and a buyer's actual bill will differ from the current owner's."
+          "text": "Income is taken from ownership's rent roll paid through 30 September 2026 and from ownership's profit and loss statement for January through August 2026. Operating expenses are the lines carried in the M&M Multifamily Model as keyed for this property. Property taxes are reassessed to the suggested list price at 1.20%, which is $37,500, and a buyer's actual bill will differ from the current owner's."
         },
         {
           "id": "disc-2",
@@ -1894,11 +1894,11 @@
           ],
           "strategy_titles": [
             "Lead with the Rent Roll and the Rule Set",
-            "Priced Under the Sherman Oaks Comp"
+            "Priced Against the Sherman Oaks Comp"
           ],
           "strategy_copy": [
             "Two facts carry this campaign. The building was finished in 2005 and its certificate of occupancy was issued in 2007, so it sits outside the Los Angeles Rent Stabilization Ordinance and under AB 1482 instead, where increases follow a published formula rather than a rent board. And the units are 1,100 to 1,400 square foot two story townhomes with in-unit laundry, fireplaces, private balconies and central air, which is why they rent at the top of the Sherman Oaks range rather than the middle of it.",
-            "The comparable set is deliberately narrow. Five to fifteen units, built between 2000 and 2015, which is the band that clears the Rent Stabilization Ordinance. Buyers in that band price off each other, and 4609 Kester Ave, a third of a mile west, is the transaction the campaign is built on. It closed at $450,000 a unit. The suggested list here is $400,000."
+            "The comparable set is deliberately narrow. Five to fifteen units, built between 2000 and 2015, which is the band that clears the Rent Stabilization Ordinance. Buyers in that band price off each other, and 4609 Kester Ave, a third of a mile west, is the transaction the campaign is built on. It closed at $450,000 a unit. The suggested list here is $446,429."
           ],
           "pull_quote": [
             "We are proactive marketers, not reactive."
@@ -1984,13 +1984,13 @@
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "The suggested list price of $2,800,000 is $400,000 a unit and $259.74 per square foot. Against the three closed sales it sits 11% under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 36% under the $408.67 per square foot median of the set. The subject carries 1,540 gross square feet a unit against Kester's 1,101 and Camarillo's 800, so the per square foot reading is the one that moves furthest, and it moves in the buyer's direction.",
-            "On $161,128 of current net operating income the price is a 5.75% capitalization rate, and 6.21% once market rents are in place. Every closed comparable in the set traded between 4.79% and 5.93% on its own recorded net operating income. The gross rent multiplier of 10.77 sits below both comparables that report one, 11.47 on Camarillo St and 13.85 on Victory Blvd.",
-            "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 36.1% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff.",
-            "Priced here the building competes on yield rather than on scarcity, which is the faster route to a close. The two marketed comparables in the set traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
+            "The suggested list price of $3,125,000 is $446,429 a unit and $289.89 per square foot. Against the three closed sales it sits just under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 29% under the $408.67 per square foot median of the set. Those two readings come from the same fact: at 1,540 gross square feet a unit the subject carries 40% more space per unit than Kester and nearly twice Camarillo St, so it earns the unit price and gives back the foot price.",
+            "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85.",
+            "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 37.7% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff.",
+            "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
           ],
           "disclosures": [
-            "Income is taken from ownership's rent roll paid through 30 September 2026 and from ownership's profit and loss statement for January through August 2026. Operating expenses are the lines carried in the M&M Multifamily Model as keyed for this property. Property taxes are reassessed to the suggested list price at 1.20%, and a buyer's actual bill will differ from the current owner's.",
+            "Income is taken from ownership's rent roll paid through 30 September 2026 and from ownership's profit and loss statement for January through August 2026. Operating expenses are the lines carried in the M&M Multifamily Model as keyed for this property. Property taxes are reassessed to the suggested list price at 1.20%, which is $37,500, and a buyer's actual bill will differ from the current owner's.",
             "Every rent comparable in this package is an asking rent rather than a signed lease. Market rents are presented as a conclusion drawn from that evidence, not as achieved rents at this property.",
             "The financing shown is an illustration at 60% loan to value, 6.40% interest and a 30 year amortization. It is not a quote, and no lender has been approached. A Marcus & Millichap Capital Corporation representative can source live terms.",
             "The unit mix published here follows ownership's rent roll, which designates six units 2x3 and one unit 3x3. The LA County Assessor records 14 bathrooms across the seven units and the Redfin public record carries 17.5. All three sources agree on 15 bedrooms. No conclusion in this analysis turns on the bathroom count.",
@@ -2141,7 +2141,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "recommended positioning",
-          "text": "Priced Under the Sherman Oaks Comp"
+          "text": "Priced Against the Sherman Oaks Comp"
         },
         {
           "id": "strategy-1",
@@ -2161,7 +2161,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "recommended positioning",
-          "text": "The comparable set is deliberately narrow. Five to fifteen units, built between 2000 and 2015, which is the band that clears the Rent Stabilization Ordinance. Buyers in that band price off each other, and 4609 Kester Ave, a third of a mile west, is the transaction the campaign is built on. It closed at $450,000 a unit. The suggested list here is $400,000."
+          "text": "The comparable set is deliberately narrow. Five to fifteen units, built between 2000 and 2015, which is the band that clears the Rent Stabilization Ordinance. Buyers in that band price off each other, and 4609 Kester Ave, a third of a mile west, is the transaction the campaign is built on. It closed at $450,000 a unit. The suggested list here is $446,429."
         },
         {
           "id": "marketing-quote",
@@ -2582,7 +2582,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": null,
-          "text": "The suggested list price of $2,800,000 is $400,000 a unit and $259.74 per square foot. Against the three closed sales it sits 11% under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 36% under the $408.67 per square foot median of the set. The subject carries 1,540 gross square feet a unit against Kester's 1,101 and Camarillo's 800, so the per square foot reading is the one that moves furthest, and it moves in the buyer's direction."
+          "text": "The suggested list price of $3,125,000 is $446,429 a unit and $289.89 per square foot. Against the three closed sales it sits just under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 29% under the $408.67 per square foot median of the set. Those two readings come from the same fact: at 1,540 gross square feet a unit the subject carries 40% more space per unit than Kester and nearly twice Camarillo St, so it earns the unit price and gives back the foot price."
         },
         {
           "id": "val-2",
@@ -2592,7 +2592,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "On $161,128 of current net operating income the price is a 5.75% capitalization rate, and 6.21% once market rents are in place. Every closed comparable in the set traded between 4.79% and 5.93% on its own recorded net operating income. The gross rent multiplier of 10.77 sits below both comparables that report one, 11.47 on Camarillo St and 13.85 on Victory Blvd."
+          "text": "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85."
         },
         {
           "id": "val-3",
@@ -2602,7 +2602,7 @@
             "sources:mm-model-moorpark"
           ],
           "framed_as": "what the operating statement carries",
-          "text": "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 36.1% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff."
+          "text": "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 37.7% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff."
         },
         {
           "id": "val-4",
@@ -2612,7 +2612,7 @@
             "comps-sale:sale-kester"
           ],
           "framed_as": "the recommendation",
-          "text": "Priced here the building competes on yield rather than on scarcity, which is the faster route to a close. The two marketed comparables in the set traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
+          "text": "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has been out 41 days without trading."
         },
         {
           "id": "disc-1",
@@ -2622,7 +2622,7 @@
             "sources:owner-pl-moorpark"
           ],
           "framed_as": null,
-          "text": "Income is taken from ownership's rent roll paid through 30 September 2026 and from ownership's profit and loss statement for January through August 2026. Operating expenses are the lines carried in the M&M Multifamily Model as keyed for this property. Property taxes are reassessed to the suggested list price at 1.20%, and a buyer's actual bill will differ from the current owner's."
+          "text": "Income is taken from ownership's rent roll paid through 30 September 2026 and from ownership's profit and loss statement for January through August 2026. Operating expenses are the lines carried in the M&M Multifamily Model as keyed for this property. Property taxes are reassessed to the suggested list price at 1.20%, which is $37,500, and a buyer's actual bill will differ from the current owner's."
         },
         {
           "id": "disc-2",
@@ -2910,28 +2910,28 @@
     "deal_id": "moorpark-15146",
     "domains": {
       "identity": "856159d68e401d53232a3ca4417e035d0a07db3b5201d88a54a2d13c1efbfa66",
-      "financial_inputs": "e0fc889f794e6a3cb1d75194d16f011f358f7ec5886631dc3b572b2d7119c5f5",
-      "pricing_decision": "514e8ed9d75779fdadacedb1781a85f48549b8003a178ef3c33f9c90b6bbcaac",
+      "financial_inputs": "76e3e653f87789de2116bd83217bfe96b25c198615822f84f14229fefbd9e741",
+      "pricing_decision": "d6c6063c1b4e0d24f68c5b02c72d56e3e65775b2193d72d9191492eced3b00b5",
       "sale_comps": "30f2f3938a0feecbf1525682b6f6a83158aacca9aa1c9c5af4cfa9af3c94294f",
       "rent_comps": "956c6bcecbfeb0f8f1ed94f38446b21b2f19703a1766d41e60de90f8f884fc89",
-      "copy": "55406915707cb5a6c95e73e63e9437e991c57964747ae0d3692ade8bd7245acb",
+      "copy": "c4254251dcd2814dfd79539ea67c6660b9a68a80160b1465e55972e149ad2ac2",
       "media_selection": "a55865694394af426a98b4b020a6124be64acc6bd31521fc7ce105da14fd623e",
       "regulatory_conclusions": "23db1d1dce66b0e1fa61543bdc5fe438be5bd6e7ed00c37a451f6a3787f14702"
     },
     "presentation_hashes": {
       "identity": "463cbb95f1b4f1fb83b220865ddc360f4f45886747ae3453bcf824a25592af86",
-      "financial_inputs": "39dbfb940c0b3c2f6bef86e458552da18143f319ed37f72b3ddce769ec1e476a",
-      "pricing_decision": "335fadd3f779f849f19f1aeb50d417928ad93218f29bd8bd3c12eb99eb27b8d4",
+      "financial_inputs": "d010a8364147509f79f410f1980fca5a9768117ddb0a9b0699608da31a2e2233",
+      "pricing_decision": "7af12ce0ea806762daadb4591c9a3a9863b9e4acdf2e75d3cda86b8ecffa4350",
       "sale_comps": "f5c01b010ca60dde5668337793761b29c8b6f083b60ec52b8fd0a5286c2b47bd",
       "rent_comps": "f21f67169042c89cd9b49f16f8ba68b5673bcb4d68d58e646e0b4e872ff73bc9",
-      "copy": "6fc19f7e40feb80bccf496173119615d81feee35d30fa8c5a997a3a1c077d711",
+      "copy": "dad1127b940cd7f90def34fe04afbe8fa2410761ac6d94bfd56b064d1bf34c2a",
       "media_selection": "20b77ee4202c378fba0cd37fdd50d7b7077cc2dd3e5b58d1cf40e55de939e762",
       "regulatory_conclusions": "08190f452f133c30af4537246c9c67dc864c729fe433361adca2e8282cd25f81"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-17T01:39:35+00:00",
+    "generated": "2026-09-17T01:44:39+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
