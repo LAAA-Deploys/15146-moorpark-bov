@@ -742,7 +742,10 @@ def presentation_projections(payload: dict) -> dict[str, Any]:
             },
         },
         "sale_comps": [
-            {"closed": prop.get("sale_comps"), "on_market": prop.get("active_comps")}
+            {"closed": prop.get("sale_comps"), "on_market": prop.get("active_comps"),
+             # The comp print's per-page digests bind the published pages to the
+             # approved comp set, the way model_pages binds the Financial Analysis.
+             "comp_pages": prop.get("comp_pages")}
             for prop in properties
         ],
         "rent_comps": [prop.get("rent_comps") for prop in properties],
@@ -938,10 +941,18 @@ def _stage_documents(workspace: DealWorkspace, site_repo: Path) -> None:
 #: Model print pages land under images/ as vector SVG, one per page. Prefixed
 #: per member on a portfolio so two members' page 1 cannot collide.
 MODEL_PAGE_GLOB = "*model-page-*.svg"
+#: The comp print (Glen, 2026-09-17): the OM's own sale-comp pages, embedded the
+#: same way, so the website's Sale Comparables section IS the book's section.
+COMP_PAGE_GLOB = "*comp-page-*.svg"
+PAGE_GLOBS = {"model": MODEL_PAGE_GLOB, "comp": COMP_PAGE_GLOB}
+
+
+def _page_filename(index: int, kind: str = "model", prefix: str = "") -> str:
+    return f"{prefix}{kind}-page-{index:02d}.svg"
 
 
 def _model_page_filename(index: int, prefix: str = "") -> str:
-    return f"{prefix}model-page-{index:02d}.svg"
+    return _page_filename(index, "model", prefix)
 
 
 def _content_clip(page, pad: float = 16.0):
@@ -976,44 +987,50 @@ def _content_clip(page, pad: float = 16.0):
     return rect & page.rect
 
 
-def model_print_pages(source: Path, spec: dict) -> list[dict]:
-    """Render the declared model print into one vector SVG per page.
+def print_pages(source: Path, spec: dict, kind: str = "model") -> list[dict]:
+    """Render a declared print into one vector SVG per page.
 
-    Pure: takes the resolved PDF path and the ``presentation.model_print``
-    block, returns page records carrying the SVG text. The declared SHA-256
-    must match the bytes on disk. A print left over from a superseded model is
-    exactly the drift the Financial Analysis exists to prevent, so a mismatch
+    Pure: takes the resolved PDF path and the declaring block
+    (``financials.presentation.model_print`` for the Financial Analysis,
+    ``comps-sale.presentation.comp_print`` for the Sale Comparables pages),
+    returns page records carrying the SVG text. The declared SHA-256 must match
+    the bytes on disk. A print left over from a superseded model or a superseded
+    comp set is exactly the drift these sections exist to prevent, so a mismatch
     refuses the build rather than publishing a statement the spine no longer
     carries. Every page is clipped to the union of the pages' horizontal ink
     so the tables line up card to card, and to its own vertical ink.
     """
+    label = "model print" if kind == "model" else "comp print"
+    restate = ("the print from the keyed model and restate "
+               "financials.json presentation.model_print.sha256" if kind == "model"
+               else "the comp pages from the book and restate "
+                    "comps-sale.json presentation.comp_print.sha256")
     source = Path(source)
     if not source.is_file():
-        raise PayloadError(f"model print not found: {source}")
+        raise PayloadError(f"{label} not found: {source}")
     if source.suffix.lower() != ".pdf":
-        raise PayloadError(f"model print is not a PDF: {source.name}")
+        raise PayloadError(f"{label} is not a PDF: {source.name}")
     digest = hashlib.sha256(source.read_bytes()).hexdigest()
     declared = str(spec.get("sha256") or "")
     if digest != declared:
         raise PayloadError(
-            f"model print {source.name} does not match its declared sha256 "
+            f"{label} {source.name} does not match its declared sha256 "
             f"({digest[:12]}... on disk, {declared[:12]}... declared). Re-export "
-            "the print from the keyed model and restate presentation.model_print.sha256; "
-            "a superseded print must never publish as the Financial Analysis.")
+            f"{restate}; a superseded print must never publish.")
     try:
         import fitz
     except ImportError as exc:  # pragma: no cover - environment
         raise PayloadError(
-            "PyMuPDF is required to render the model print: "
+            f"PyMuPDF is required to render the {label}: "
             "pip install -r reporting/bovsite/requirements.txt") from exc
     doc = fitz.open(str(source))
     try:
         if doc.page_count == 0:
-            raise PayloadError(f"model print {source.name} has no pages")
-        labels = [str(label) for label in (spec.get("page_labels") or [])]
+            raise PayloadError(f"{label} {source.name} has no pages")
+        labels = [str(text) for text in (spec.get("page_labels") or [])]
         if labels and len(labels) != doc.page_count:
             raise PayloadError(
-                f"model print {source.name} has {doc.page_count} page(s) but "
+                f"{label} {source.name} has {doc.page_count} page(s) but "
                 f"page_labels names {len(labels)}; label every page or none.")
         clips = [_content_clip(page) for page in doc]
         left = min(clip.x0 for clip in clips)
@@ -1035,7 +1052,7 @@ def model_print_pages(source: Path, spec: dict) -> list[dict]:
                 "index": index,
                 "sha256": hashlib.sha256(svg.encode("utf-8")).hexdigest(),
                 "label": labels[index - 1] if labels else f"Page {index}",
-                "src": f"images/{_model_page_filename(index)}",
+                "src": f"images/{_page_filename(index, kind)}",
                 "width": round(page.rect.width, 2),
                 "height": round(page.rect.height, 2),
                 "svg": svg,
@@ -1045,10 +1062,14 @@ def model_print_pages(source: Path, spec: dict) -> list[dict]:
         doc.close()
 
 
-def workspace_model_print(workspace: DealWorkspace) -> list[dict]:
-    """The workspace's declared model print pages, or [] when none is declared."""
-    financials = workspace.load("financials")
-    spec = (financials.get("presentation") or {}).get("model_print")
+def model_print_pages(source: Path, spec: dict) -> list[dict]:
+    """The Financial Analysis pages. Kept as its own name for its callers."""
+    return print_pages(source, spec, "model")
+
+
+def _workspace_print(workspace: DealWorkspace, document: str, key: str, kind: str) -> list[dict]:
+    """The workspace's declared print pages of one kind, or [] when none is declared."""
+    spec = (workspace.load(document).get("presentation") or {}).get(key)
     if not spec:
         return []
     deal = workspace.load("deal")
@@ -1057,17 +1078,33 @@ def workspace_model_print(workspace: DealWorkspace) -> list[dict]:
     try:
         source.relative_to(root)
     except ValueError:
-        raise PayloadError(f"model print escapes source-documents: {spec['file']}")
-    return model_print_pages(source, spec)
+        raise PayloadError(f"{kind} print escapes source-documents: {spec['file']}")
+    return print_pages(source, spec, kind)
 
 
-def _stage_model_pages(site_repo: Path, pages: list[dict], prefix: str = "") -> set[str]:
+def workspace_model_print(workspace: DealWorkspace) -> list[dict]:
+    """The workspace's declared model print pages, or [] when none is declared."""
+    return _workspace_print(workspace, "financials", "model_print", "model")
+
+
+def workspace_comp_print(workspace: DealWorkspace) -> list[dict]:
+    """The workspace's declared comp print pages, or [] when none is declared.
+
+    Glen, 2026-09-17: the Sale Comparables section is the OM's own comp pages,
+    the same presentation the book carries, reused here the way the Financial
+    Analysis reuses the model print.
+    """
+    return _workspace_print(workspace, "comps-sale", "comp_print", "comp")
+
+
+def _stage_pages(site_repo: Path, pages: list[dict], kind: str = "model",
+                 prefix: str = "") -> set[str]:
     """Write each page's SVG under images/; return the filenames written."""
     images = site_repo / "images"
     images.mkdir(parents=True, exist_ok=True)
     written = set()
     for page in pages:
-        name = _model_page_filename(page["index"], prefix)
+        name = _page_filename(page["index"], kind, prefix)
         # Bytes, never text: write_text would translate newlines on Windows and
         # the staged file would no longer match the digest in the payload.
         (images / name).write_bytes(page["svg"].encode("utf-8"))
@@ -1075,19 +1112,31 @@ def _stage_model_pages(site_repo: Path, pages: list[dict], prefix: str = "") -> 
     return written
 
 
-def _prune_model_pages(site_repo: Path, keep: set[str]) -> None:
-    """Remove every model page the current build did not write.
+def _prune_pages(site_repo: Path, keep: set[str], kinds=("model", "comp")) -> None:
+    """Remove every print page of these kinds the current build did not write.
 
     Same reason _remove_stale_managed_images exists: a page the previous build
     staged and this build no longer names would otherwise ride the images/
-    allowance into the public repo as an orphan of a superseded model.
+    allowance into the public repo as an orphan of a superseded model or a
+    superseded comp set.
     """
     images = site_repo / "images"
     if not images.is_dir():
         return
-    for stale in images.glob(MODEL_PAGE_GLOB):
-        if stale.name not in keep and stale.is_file():
-            stale.unlink()
+    for kind in kinds:
+        for stale in images.glob(PAGE_GLOBS[kind]):
+            if stale.name not in keep and stale.is_file():
+                stale.unlink()
+
+
+def _stage_model_pages(site_repo: Path, pages: list[dict], prefix: str = "") -> set[str]:
+    """Kept for its callers; stages Financial Analysis pages."""
+    return _stage_pages(site_repo, pages, "model", prefix)
+
+
+def _prune_model_pages(site_repo: Path, keep: set[str]) -> None:
+    """Kept for its callers; prunes Financial Analysis pages only."""
+    _prune_pages(site_repo, keep, ("model",))
 
 
 def _stage_headshots(payload: dict, site_repo: Path) -> None:
@@ -1282,6 +1331,7 @@ def _build_payload(workspace: DealWorkspace) -> dict:
     excluded_sale_ids = set(sale["conclusions"]["excluded_ids"])
     documents = comp_documents(workspace)
     model_pages = workspace_model_print(workspace)
+    comp_pages = workspace_comp_print(workspace)
     for comp in sale["rows"]:
         if comp["quality_rating"] == "exclude" or comp["id"] in excluded_sale_ids:
             continue
@@ -1558,6 +1608,11 @@ def _build_payload(workspace: DealWorkspace) -> dict:
             {key: page[key] for key in ("src", "label", "width", "height", "sha256")}
             for page in model_pages
         ],
+        # The OM's own sale-comp pages, when the spine declares a comp print.
+        "comp_pages": [
+            {key: page[key] for key in ("src", "label", "width", "height", "sha256")}
+            for page in comp_pages
+        ],
         "maps": {
             "subject": maps.get("subject"),
             "sale": maps.get("sale"),
@@ -1654,7 +1709,9 @@ def write_payload(workspace: DealWorkspace, site_repo: Path | None = None) -> Pa
         )
     _stage_headshots(payload, site_repo)
     _stage_documents(workspace, site_repo)
-    _prune_model_pages(site_repo, _stage_model_pages(site_repo, workspace_model_print(workspace)))
+    _prune_pages(site_repo,
+                 _stage_pages(site_repo, workspace_model_print(workspace), "model")
+                 | _stage_pages(site_repo, workspace_comp_print(workspace), "comp"))
     write_json_atomic(site_repo / "media-manifest.json", published_manifest(media))
     destination = site_repo / "bov-site.json"
     write_json_atomic(destination, payload)
@@ -1757,10 +1814,11 @@ def _build_portfolio_payload(workspace: DealWorkspace) -> tuple[dict, dict, dict
         # Model print pages are staged per member under the member slug so
         # two members' page 1 cannot collide in the one images/ folder.
         member_slug = members[deal_id].load("deal")["slug"]
-        prop["model_pages"] = [
-            dict(page, src=f"images/{member_slug}-{Path(page['src']).name}")
-            for page in prop.get("model_pages") or []
-        ]
+        for pages_key in ("model_pages", "comp_pages"):
+            prop[pages_key] = [
+                dict(page, src=f"images/{member_slug}-{Path(page['src']).name}")
+                for page in prop.get(pages_key) or []
+            ]
         properties.append(prop)
 
     payload = {
@@ -1836,9 +1894,11 @@ def write_portfolio_payload(workspace: DealWorkspace, site_repo: Path | None = N
     staged_pages: set[str] = set()
     for member in members.values():
         member_slug = member.load("deal")["slug"]
-        staged_pages |= _stage_model_pages(
-            site_repo, workspace_model_print(member), prefix=f"{member_slug}-")
-    _prune_model_pages(site_repo, staged_pages)
+        staged_pages |= _stage_pages(
+            site_repo, workspace_model_print(member), "model", prefix=f"{member_slug}-")
+        staged_pages |= _stage_pages(
+            site_repo, workspace_comp_print(member), "comp", prefix=f"{member_slug}-")
+    _prune_pages(site_repo, staged_pages)
     write_json_atomic(site_repo / "media-manifest.json", combined_media)
     destination = site_repo / "bov-site.json"
     write_json_atomic(destination, payload)

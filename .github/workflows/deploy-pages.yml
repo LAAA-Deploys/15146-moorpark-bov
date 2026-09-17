@@ -172,8 +172,10 @@ jobs:
           # this a deal declaring presentation.model_print builds and passes
           # every local gate, then fails the deploy stage on its own generated
           # pages (24377 Newhall, the first release after #394).
+          # Two generated page kinds now: model-page for the Financial Analysis,
+          # comp-page for the book's Sales Comparables pages (Glen, 2026-09-17).
           model_page = re.compile(
-              r"images/(?:[a-z0-9]+(?:-[a-z0-9]+)*-)?model-page-\d{2}\.svg\Z")
+              r"images/(?:[a-z0-9]+(?:-[a-z0-9]+)*-)?(?:model|comp)-page-\d{2}\.svg\Z")
           for relative in sorted(referenced_images):
               source = Path(relative)
               try:

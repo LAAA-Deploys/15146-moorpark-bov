@@ -18,7 +18,7 @@
     "leads": [
       {
         "name": "Morgan Wetmore",
-        "title": "Associate Investments",
+        "title": "Associate",
         "phone": "(818) 212-2724",
         "tel": "8182122724",
         "email": "Morgan.Wetmore@marcusmillichap.com",
@@ -486,7 +486,7 @@
       ],
       "valuation_narrative": [
         "The suggested list price of $3,125,000 is $446,429 a unit and $289.89 per square foot. Against the three closed sales it sits just under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 29% under the $408.67 per square foot median of the set. Those two readings come from the same fact: at 1,540 gross square feet a unit the subject carries 40% more space per unit than Kester and nearly twice Camarillo St, so it earns the unit price and gives back the foot price.",
-        "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85.",
+        "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. None of the three closed sales carries the documents a comparable cap rate needs, so the subject's yield stands on its own underwriting rather than against a measured set. The gross rent multiplier of 12.02 sits above 10833-10835 Camarillo St at 11.47, the one closed sale whose own documents support that metric.",
         "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 37.7% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff.",
         "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has taken 163 days and multiple price reductions without trading."
       ],
@@ -576,38 +576,39 @@
           "src": "images/model-page-01.svg",
           "label": "Rent Roll Summary",
           "width": 704.99,
-          "height": 362.12,
-          "sha256": "5c18aae82f9f2d930e05efe64abd120f62032188b844065dda72644453a7ecce"
+          "height": 309.8,
+          "sha256": "b43b6ebb7831c7fb8d5da19a88ba7ae589556802276965dcec737383636eb9c2"
         },
         {
           "src": "images/model-page-02.svg",
           "label": "Operating Statement",
           "width": 704.99,
           "height": 233.05,
-          "sha256": "927bd47f97d1cb4fcab20951900b638dd840f691ec35137bc983f6e9e1963bda"
+          "sha256": "c88cccea8e81a63f61410d640d93237bf86119eb18fc01a304406cfe167e8079"
         },
         {
           "src": "images/model-page-03.svg",
           "label": "Notes to the Operating Statement",
           "width": 704.99,
-          "height": 398.8,
-          "sha256": "8e86c1d18a876d7d7600c97b13c1c8b80e4949a3551989b8a5ccc360e2c42be1"
+          "height": 162.95,
+          "sha256": "b201faa961d3a94f20e60a91bc15ba9faa3d236cab866eca8b75dfc1ebceda9e"
         },
         {
           "src": "images/model-page-04.svg",
           "label": "Pricing Detail",
           "width": 704.99,
-          "height": 463.33,
-          "sha256": "1b5d3a01155ce841927aef487c907fc12b025bf20701b47ca158bc85bda0945d"
+          "height": 416.77,
+          "sha256": "477f60796e73d0b363eb2ab3c2e250091b31ad45f326114ed4c8dd1684d84a22"
         },
         {
           "src": "images/model-page-05.svg",
           "label": "Proposal Price",
           "width": 704.99,
           "height": 387.88,
-          "sha256": "adfff30728ffac023c26ab08cb11adf004c2307d74df2f06a4c037abb8e99b7c"
+          "sha256": "5ef213ec7366e43e02035276260d05b4345d73bd39644439c4865026f12998fb"
         }
       ],
+      "comp_pages": [],
       "maps": {
         "subject": "images/maps-15146-moorpark-subject.png",
         "sale": "images/maps-15146-moorpark-sale-comps.png",
@@ -715,7 +716,7 @@
           "price_per_sf": 408.67,
           "price_per_land_sf": 523.4840773593137,
           "grm": null,
-          "cap_rate": 4.8,
+          "cap_rate": null,
           "image": null,
           "restatement": null,
           "document": null,
@@ -739,8 +740,8 @@
           "price_per_unit": 300000.0,
           "price_per_sf": 255.75,
           "price_per_land_sf": 315.45741324921136,
-          "grm": 13.85,
-          "cap_rate": 4.7862,
+          "grm": null,
+          "cap_rate": null,
           "image": null,
           "restatement": null,
           "document": null,
@@ -765,7 +766,7 @@
           "price_per_sf": 453.41,
           "price_per_land_sf": 489.03878583473863,
           "grm": 11.47,
-          "cap_rate": 5.9323,
+          "cap_rate": null,
           "image": null,
           "restatement": null,
           "document": null,
@@ -1278,7 +1279,7 @@
         "financial_analysis": {
           "valuation_narrative": [
             "The suggested list price of $3,125,000 is $446,429 a unit and $289.89 per square foot. Against the three closed sales it sits just under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 29% under the $408.67 per square foot median of the set. Those two readings come from the same fact: at 1,540 gross square feet a unit the subject carries 40% more space per unit than Kester and nearly twice Camarillo St, so it earns the unit price and gives back the foot price.",
-            "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85.",
+            "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. None of the three closed sales carries the documents a comparable cap rate needs, so the subject's yield stands on its own underwriting rather than against a measured set. The gross rent multiplier of 12.02 sits above 10833-10835 Camarillo St at 11.47, the one closed sale whose own documents support that metric.",
             "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 37.7% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff.",
             "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has taken 163 days and multiple price reductions without trading."
           ],
@@ -1886,7 +1887,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85."
+          "text": "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. None of the three closed sales carries the documents a comparable cap rate needs, so the subject's yield stands on its own underwriting rather than against a measured set. The gross rent multiplier of 12.02 sits above 10833-10835 Camarillo St at 11.47, the one closed sale whose own documents support that metric."
         },
         {
           "id": "val-3",
@@ -2083,7 +2084,7 @@
         "financial_analysis": {
           "valuation_narrative": [
             "The suggested list price of $3,125,000 is $446,429 a unit and $289.89 per square foot. Against the three closed sales it sits just under the $450,000 a unit 4609 Kester Ave paid a third of a mile west, and 29% under the $408.67 per square foot median of the set. Those two readings come from the same fact: at 1,540 gross square feet a unit the subject carries 40% more space per unit than Kester and nearly twice Camarillo St, so it earns the unit price and gives back the foot price.",
-            "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85.",
+            "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. None of the three closed sales carries the documents a comparable cap rate needs, so the subject's yield stands on its own underwriting rather than against a measured set. The gross rent multiplier of 12.02 sits above 10833-10835 Camarillo St at 11.47, the one closed sale whose own documents support that metric.",
             "The operating statement carries ownership's own 2026 refuse, water and power, repairs and grounds figures, with three lines a buyer adds that the current owner does not pay in the same form: property taxes reassessed to the sale price, a 5% management fee, and a replacement reserve. Operating expenses run 37.7% of effective gross income, which is where a seven unit building sits when every unit is separately metered, every unit does its own laundry, and there is no elevator, no pool and no on-site staff.",
             "Every metric lands inside the comparable set rather than reaching past it, which is what gets an offer in the first three weeks instead of the third month. The two marketed comparables traded in 17 and 13 days. The only competing Sherman Oaks offering of this product is asking $639,000 a unit and has taken 163 days and multiple price reductions without trading."
           ],
@@ -2691,7 +2692,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. That sits above 4609 Kester Ave at 4.80% and 13430 Victory Blvd at 4.79%, and below 10833-10835 Camarillo St at 5.93%, each struck on that transaction's own recorded net operating income. The gross rent multiplier of 12.02 lands between Camarillo at 11.47 and Victory at 13.85."
+          "text": "On $157,228 of current net operating income the price is a 5.03% capitalization rate, and 5.44% once market rents are in place. None of the three closed sales carries the documents a comparable cap rate needs, so the subject's yield stands on its own underwriting rather than against a measured set. The gross rent multiplier of 12.02 sits above 10833-10835 Camarillo St at 11.47, the one closed sale whose own documents support that metric."
         },
         {
           "id": "val-3",
@@ -2994,29 +2995,29 @@
   "approval_binding": {
     "deal_id": "moorpark-15146",
     "domains": {
-      "identity": "96f2c00168f102d09a7d7cc51cb9982863638caea1fa501f5a1a7243d3c3dd5b",
-      "financial_inputs": "5885d04895b4af24f54751b257798457ed30cdc2e7cca51c1c407181f0020597",
-      "pricing_decision": "fb50f52b080530ae366adca57ae664e9b7733e3db858c2695d14b16265ced873",
-      "sale_comps": "c22dd1a364ed46ebe717b9fb8b422849716266b1e7c0423b22f9350936cc9c28",
+      "identity": "280fd3663fd6a64cafde9662dfb274862aeb96ba26fb7522d9cdcc62faa5db3c",
+      "financial_inputs": "5ae639afc3280513ee45ff7bb20f0b62085fa7b2b6043b6f34e0f038f484233c",
+      "pricing_decision": "f7f6607ba4208ed2dac6652b79097721c2d7342b9e5c0d042757acfb4078f402",
+      "sale_comps": "a658185aedb4306f9459960ead0709ff1d3b6959c79d32cc71c545fc18eaf964",
       "rent_comps": "2c1665102fe6446d6778e204f33333f3017c2d0ba8f3d389e08e61792cb0d7c8",
-      "copy": "8004d9e82db21b673e5f625f2a2f5c15c7b025ccf81a52bead60e72d1c770ad6",
+      "copy": "d0696f52143ac13b4a025ffe8b4b5bb0258509de22b805ccdd21ba4a5e0846df",
       "media_selection": "14c4d616267d537fadb3f75790e6779fc05039bef5c534018f458ed00f51d386",
       "regulatory_conclusions": "23db1d1dce66b0e1fa61543bdc5fe438be5bd6e7ed00c37a451f6a3787f14702"
     },
     "presentation_hashes": {
-      "identity": "8cfb65bf36dda8dab5d3893e5f86a58c219ed652e80f285559c4421bcab0bc72",
-      "financial_inputs": "2fcc208064d20e93d65f23ab761c8a4160ea63752b29e03d5604ae70d256f10a",
+      "identity": "9c820b9d04216fe41bb4af8ece3b7c3654221cd04228a438985d2df1960c60cd",
+      "financial_inputs": "0406fc6b6d363593a0413e6a7182746fd5d16df15cf443d2077cf876f29009b5",
       "pricing_decision": "7af12ce0ea806762daadb4591c9a3a9863b9e4acdf2e75d3cda86b8ecffa4350",
-      "sale_comps": "37e990471f22733e460ba20722452302b613c18bae0a9454847fa903d73e8978",
+      "sale_comps": "5fda54a5d87aa41121c8a222b9a89e259ab2759b3cf90f7aa94b0bc5e8748f92",
       "rent_comps": "7fbfb6ec9d8adf39141bddfb0db3c2263ae84eab13c52726c978ea18ed6ce341",
-      "copy": "7504af133a819b6607c42350e4b04ea4db40fb71f17e5957ad610e45e5616dfc",
+      "copy": "c22376bfd6579b7f26b21ee97cc6a94458e60f493154c030812ffba0bf7d74ed",
       "media_selection": "4dc90cee0a7fafc2da43aa18ed6563a310b74c963b19d4184e97f0ceb76e2ce8",
       "regulatory_conclusions": "08190f452f133c30af4537246c9c67dc864c729fe433361adca2e8282cd25f81"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-17T18:31:15+00:00",
+    "generated": "2026-09-17T21:48:36+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,

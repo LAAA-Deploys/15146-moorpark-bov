@@ -395,7 +395,7 @@ def check_model_pages(site, site_data):
     """
     problems = []
     for prop in (site_data or {}).get("properties") or []:
-        for i, page in enumerate(prop.get("model_pages") or []):
+        for i, page in enumerate((prop.get("model_pages") or []) + (prop.get("comp_pages") or [])):
             src = page.get("src") if isinstance(page, dict) else None
             if not src:
                 problems.append(f"{prop.get('slug')}: model_pages[{i}] has no src")
