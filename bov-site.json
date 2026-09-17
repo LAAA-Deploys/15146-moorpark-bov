@@ -722,7 +722,7 @@
           "document": null,
           "side_by_side": true,
           "summary": "The anchor comparable: same submarket, same zip code, one year apart in vintage, a third of a mile away, and the only closed sale in the set inside Sherman Oaks itself.",
-          "relevance": "The closest comparable sale to the subject at a third of a mile, in the same 91403 zip code, built in 2004 against the subject's 2005.; Eight units across 8,809 square feet, 1,101 square feet per unit against the subject's 1,540, so the subject reads higher on price per unit and lower on price per square foot.",
+          "relevance": "The closest comparable sale to the subject at a third of a mile, in the same 91403 zip code, built in 2004 against the subject's 2005.; Eight units across 8,809 square feet, 1,101 square feet per unit against the subject's 1,540, so the subject reads lower on price per unit and materially lower on price per square foot.",
           "considerations": "Zero days on market. The sale never went to the MLS as a listing: the record is an Entry Only comparable posted from tax sales information after closing, so the building traded off market with no marketing period at all.",
           "map_ref": 1,
           "map_url": "https://www.google.com/maps/search/?api=1&query=34.1542806,-118.4577952&query_place_id=ChIJk7xOMMGXwoARZ5HztuCRbV0"
@@ -2998,7 +2998,7 @@
       "identity": "280fd3663fd6a64cafde9662dfb274862aeb96ba26fb7522d9cdcc62faa5db3c",
       "financial_inputs": "5ae639afc3280513ee45ff7bb20f0b62085fa7b2b6043b6f34e0f038f484233c",
       "pricing_decision": "f7f6607ba4208ed2dac6652b79097721c2d7342b9e5c0d042757acfb4078f402",
-      "sale_comps": "a658185aedb4306f9459960ead0709ff1d3b6959c79d32cc71c545fc18eaf964",
+      "sale_comps": "db81014c72340e1eb70c7275a72b6f0aca95e65862b4c8a8b0db72116fc14ad0",
       "rent_comps": "2c1665102fe6446d6778e204f33333f3017c2d0ba8f3d389e08e61792cb0d7c8",
       "copy": "d0696f52143ac13b4a025ffe8b4b5bb0258509de22b805ccdd21ba4a5e0846df",
       "media_selection": "14c4d616267d537fadb3f75790e6779fc05039bef5c534018f458ed00f51d386",
@@ -3008,7 +3008,7 @@
       "identity": "9c820b9d04216fe41bb4af8ece3b7c3654221cd04228a438985d2df1960c60cd",
       "financial_inputs": "0406fc6b6d363593a0413e6a7182746fd5d16df15cf443d2077cf876f29009b5",
       "pricing_decision": "7af12ce0ea806762daadb4591c9a3a9863b9e4acdf2e75d3cda86b8ecffa4350",
-      "sale_comps": "5fda54a5d87aa41121c8a222b9a89e259ab2759b3cf90f7aa94b0bc5e8748f92",
+      "sale_comps": "95b3df4b35b879ee35f94684116145e2227f6669eff5c80d143669a37d985da5",
       "rent_comps": "7fbfb6ec9d8adf39141bddfb0db3c2263ae84eab13c52726c978ea18ed6ce341",
       "copy": "c22376bfd6579b7f26b21ee97cc6a94458e60f493154c030812ffba0bf7d74ed",
       "media_selection": "4dc90cee0a7fafc2da43aa18ed6563a310b74c963b19d4184e97f0ceb76e2ce8",
@@ -3017,7 +3017,7 @@
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-17T21:48:36+00:00",
+    "generated": "2026-09-17T22:26:48+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
