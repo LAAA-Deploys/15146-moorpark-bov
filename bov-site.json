@@ -143,7 +143,14 @@
       "show_local_closings": true,
       "local_closings": {
         "show_all": true,
-        "hide_year": true
+        "hide_year": true,
+        "columns": [
+          "address",
+          "asset_type",
+          "units",
+          "price"
+        ],
+        "hide_listings": true
       },
       "show_buyout_model": false,
       "buyout_model": null,
@@ -844,6 +851,7 @@
           {
             "address": "4528 Vista Del Monte Ave",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 8,
             "price": 1995000,
             "price_per_unit": 249375,
@@ -853,6 +861,7 @@
           {
             "address": "14826 Dickens St",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 6,
             "price": 1875000,
             "price_per_unit": 312500,
@@ -862,6 +871,7 @@
           {
             "address": "4500 Vista Del Monte Ave",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 5,
             "price": 1745000,
             "price_per_unit": 349000,
@@ -871,6 +881,7 @@
           {
             "address": "14533 Dickens St",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 8,
             "price": 1950000,
             "price_per_unit": 243750,
@@ -880,6 +891,7 @@
           {
             "address": "14514 Benefit St",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 5,
             "price": 1610000,
             "price_per_unit": 322000,
@@ -889,6 +901,7 @@
           {
             "address": "15028 Dickens St",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 20,
             "price": 5550000,
             "price_per_unit": 277500,
@@ -898,6 +911,7 @@
           {
             "address": "14316 Riverside Dr",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 8,
             "price": 2410000,
             "price_per_unit": 301250,
@@ -907,6 +921,7 @@
           {
             "address": "4838-4846 Hazeltine Ave",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 16,
             "price": 6100000,
             "price_per_unit": 381250,
@@ -914,8 +929,19 @@
             "distance": 1.38
           },
           {
+            "address": "3920 Knobhill Dr",
+            "submarket": "Sherman Oaks",
+            "asset_type": "Land",
+            "units": null,
+            "price": 3925000,
+            "price_per_unit": null,
+            "year": "2025",
+            "distance": 1.21
+          },
+          {
             "address": "4474 Murietta Ave",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 8,
             "price": 2400000,
             "price_per_unit": 300000,
@@ -925,6 +951,7 @@
           {
             "address": "13804 Moorpark St",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 6,
             "price": 1270000,
             "price_per_unit": 211667,
@@ -932,17 +959,29 @@
             "distance": 1.74
           },
           {
-            "address": "14224 Riverside Dr",
+            "address": "4615 Kester Ave",
             "submarket": "Sherman Oaks",
-            "units": 9,
-            "price": 5450000,
-            "price_per_unit": 605556,
+            "asset_type": "Land",
+            "units": null,
+            "price": 1225000,
+            "price_per_unit": null,
             "year": "2017",
-            "distance": 1.19
+            "distance": 0.34
+          },
+          {
+            "address": "15058 Valleyheart Dr",
+            "submarket": "Sherman Oaks",
+            "asset_type": "Land",
+            "units": null,
+            "price": 660000,
+            "price_per_unit": null,
+            "year": "2018",
+            "distance": 0.45
           },
           {
             "address": "4535 Murietta Ave",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 13,
             "price": 4500000,
             "price_per_unit": 346154,
@@ -950,8 +989,19 @@
             "distance": 1.43
           },
           {
+            "address": "14224 Riverside Dr",
+            "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
+            "units": 9,
+            "price": 5450000,
+            "price_per_unit": 605556,
+            "year": "2017",
+            "distance": 1.19
+          },
+          {
             "address": "4410 Sepulveda Boulevard",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 31,
             "price": 18500000,
             "price_per_unit": 596774,
@@ -961,6 +1011,7 @@
           {
             "address": "4334 Mammoth Ave",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 10,
             "price": 3350000,
             "price_per_unit": 335000,
@@ -968,8 +1019,19 @@
             "distance": 1.8
           },
           {
+            "address": "14419 Riverside Dr",
+            "submarket": "Sherman Oaks",
+            "asset_type": "Land",
+            "units": null,
+            "price": 2050000,
+            "price_per_unit": null,
+            "year": "2019",
+            "distance": 0.95
+          },
+          {
             "address": "13312 Woodbridge St",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 5,
             "price": 1445000,
             "price_per_unit": 289000,
@@ -979,6 +1041,7 @@
           {
             "address": "4325 Stern Avenue",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 5,
             "price": 2750000,
             "price_per_unit": 550000,
@@ -988,6 +1051,7 @@
           {
             "address": "4540 Hazeltine Avenue",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 23,
             "price": 7125000,
             "price_per_unit": 309783,
@@ -997,6 +1061,7 @@
           {
             "address": "4522 Murietta Ave",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 13,
             "price": 3500000,
             "price_per_unit": 269231,
@@ -1006,6 +1071,7 @@
           {
             "address": "5105 Woodman Avenue",
             "submarket": "Sherman Oaks",
+            "asset_type": "Apartments",
             "units": 10,
             "price": 2862500,
             "price_per_unit": 286250,
@@ -1027,94 +1093,7 @@
           "activity_markers": 0,
           "render": "images/maps-15146-moorpark-closings.png"
         },
-        "local_listings": [
-          {
-            "address": "7061 Whitsett Ave",
-            "city": "North Hollywood, CA",
-            "slug": "7061-whitsett",
-            "units": 13,
-            "price": 2975000,
-            "price_per_unit": 228846,
-            "status": "available",
-            "cap_rate": 5.38,
-            "distance": 4.54
-          },
-          {
-            "address": "10455 Magnolia Blvd",
-            "city": "North Hollywood, CA",
-            "slug": "10455-magnolia",
-            "units": 26,
-            "price": 9200000,
-            "price_per_unit": 353846,
-            "status": "available",
-            "cap_rate": 5.03,
-            "distance": 6.02
-          },
-          {
-            "address": "300 N Screenland Dr",
-            "city": "Burbank, CA",
-            "slug": "300-n-screenland",
-            "units": 5,
-            "price": 1750000,
-            "price_per_unit": 350000,
-            "status": "available",
-            "cap_rate": 5.08,
-            "distance": 6.95
-          },
-          {
-            "address": "7018 Alabama Ave",
-            "city": "Canoga Park, CA",
-            "slug": "7018-alabama",
-            "units": 9,
-            "price": 5100000,
-            "price_per_unit": 566667,
-            "status": "available",
-            "cap_rate": 5.27,
-            "distance": 8.31
-          },
-          {
-            "address": "2001-2005 Grismer Avenue",
-            "city": "Burbank, CA",
-            "slug": "2001-2005-grismer",
-            "units": 14,
-            "price": 5350000,
-            "price_per_unit": 382143,
-            "status": "available",
-            "cap_rate": 4.56,
-            "distance": 8.38
-          },
-          {
-            "address": "13724 Victory Blvd",
-            "city": "Van Nuys, CA",
-            "slug": "13724-victory",
-            "units": 68,
-            "price": 22900000,
-            "price_per_unit": 336765,
-            "status": "in-escrow",
-            "cap_rate": 5.5,
-            "distance": 2.85
-          },
-          {
-            "address": "20234 Roscoe Blvd",
-            "city": "Winnetka, CA",
-            "slug": "20234-roscoe",
-            "units": 25,
-            "price": 4750000,
-            "price_per_unit": 190000,
-            "status": "in-escrow",
-            "cap_rate": 5.51,
-            "distance": 7.8
-          }
-        ],
-        "local_listings_basis": {
-          "type": "radius",
-          "label": "within 10 miles",
-          "radius_mi": 10
-        },
-        "local_listings_source": {
-          "source": "https://www.laaa.com/listings",
-          "pulled": "2026-09-17T17:07:56+00:00"
-        }
+        "local_listings": []
       }
     }
   ],
@@ -2970,7 +2949,7 @@
   "approval_binding": {
     "deal_id": "moorpark-15146",
     "domains": {
-      "identity": "856159d68e401d53232a3ca4417e035d0a07db3b5201d88a54a2d13c1efbfa66",
+      "identity": "b7dc5285b9ef8c4f677049939cb945fe2938ebad90f6dabbcc4c5fda83ac0cc1",
       "financial_inputs": "76e3e653f87789de2116bd83217bfe96b25c198615822f84f14229fefbd9e741",
       "pricing_decision": "d6c6063c1b4e0d24f68c5b02c72d56e3e65775b2193d72d9191492eced3b00b5",
       "sale_comps": "30f2f3938a0feecbf1525682b6f6a83158aacca9aa1c9c5af4cfa9af3c94294f",
@@ -2980,7 +2959,7 @@
       "regulatory_conclusions": "23db1d1dce66b0e1fa61543bdc5fe438be5bd6e7ed00c37a451f6a3787f14702"
     },
     "presentation_hashes": {
-      "identity": "6d59a2724d44436ba45f2e898a1e06a040853ca958480a02321d5dd97ad25dae",
+      "identity": "4da2c349c2c3a41067a0712cad298f3a90d18900b3520d1a287bbf1e67bc0d13",
       "financial_inputs": "e4b3d6231f3c1ec0c0b3c3cdd10456c28fcf8dff3ff64a0b78df84ab2081eecb",
       "pricing_decision": "7af12ce0ea806762daadb4591c9a3a9863b9e4acdf2e75d3cda86b8ecffa4350",
       "sale_comps": "378e2c19e8f2bc148e4caffc39674756a94ec88346ae3e756b5b1ecada166a95",
@@ -2992,7 +2971,7 @@
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-17T17:07:56+00:00",
+    "generated": "2026-09-17T17:20:40+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,

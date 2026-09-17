@@ -462,6 +462,15 @@
             "show_all": {"type": "boolean", "description": "Publish every closing in the scope instead of the three-row deterministic sample. The ranking still runs, so the order and the leading rows are unchanged; only the cut is removed."},
             "hide_year": {"type": "boolean", "description": "Drop the Closed column from the rendered table. The years stay in the live feed and in the map manifest; only the column is suppressed. The local basis label beside the table still states the scope, so this cannot disguise a thin or dated population."},
             "hide_listings": {"type": "boolean", "description": "Drop LAAA's current availabilities and escrows from the local activity table. Default is to show them (Glen, 2026-09-10): the rows come from the same live laaa.com listings pull as the Active Listings section, scoped to the subject's market by stats.local_listings, so nothing is typed and nothing can go stale. Set true on a deal where current inventory would distract from the closings story."},
+            "columns": {
+              "description": "Ordered columns for the local closings table, from a closed vocabulary. Absent renders the five-column default: address, units, price, price_per_unit, status. Including 'asset_type' also widens the population to every asset class LAAA closed in the same scope, because that column exists to say which one a row is; land rows then print a dash for units and price per unit rather than a fabricated figure. 'status' is forced back in whenever current availabilities are on the table, since an asking price and a closed price are otherwise indistinguishable. The scope itself is never changed here: stats.local_scope still decides the area, so the table can never describe a wider market than the metric card beside it.",
+              "type": "array",
+              "minItems": 2,
+              "uniqueItems": true,
+              "items": {
+                "enum": ["address", "asset_type", "units", "price", "price_per_unit", "status"]
+              }
+            },
             "activity_pins": {
               "type": "array",
               "description": "Current LAAA activity drawn on the closings map in a lighter gold: properties being valued or marketed now, never closed transactions. Excluded from every closed-population tally and never presented as a closing. Coordinates must be rooftop-resolved through laaa-geo.",
